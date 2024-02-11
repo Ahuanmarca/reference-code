@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox test</title>
+
+    <style>
+
+        
+        body {
+            padding-bottom: 100%;
+            padding-left: 3%;
+        }
+
+        /* RECTANGULO GRIS */
+        body > main {
+            display: inline-flex; /* Afecta elemento, ¡no parent! */
+            flex-wrap: wrap; /* ¡¡ Se está afectando a sí mismo !!*/
+            width: 360px;
+            margin: 10px;
+        }
+
+        /* RECTANGULO CON CUADRADITOS DENTRO */
+        main > section {
+            display: flex;
+            width: 360px;
+            height: 180px;
+            background-color: antiquewhite;
+        }
+
+        /* CUADRADITOS */
+        section > div {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        /* COLOR INTERCALADO EN CUADRADITOS */
+        section > div:nth-of-type(1n) {background-color: mediumaquamarine;}
+        section > div:nth-of-type(2n) {background-color: skyblue;}
+
+        h2 {
+            font-size: 1.5em;
+            color:indigo;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h3, p {
+            font-size: 1em;
+            color:indigo;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0px;
+        }
+
+
+        /* TODOS LOS EJEMPLOS */
+
+        /* flex-direction */
+        .container01 {flex-direction: row;}
+        .container02 {flex-direction: column;}
+        .container03 {flex-direction: row-reverse;}
+        .container04 {flex-direction: column-reverse;}
+
+        /* flex-wrap */
+        .container05-1 {flex-wrap: wrap;}
+        .container05-2 {flex-wrap: wrap-reverse;}
+
+        /* justify-content */
+        .container06 {justify-content: flex-end;}
+        .container07 {justify-content: center;}
+        .container08 {justify-content: space-between;}
+        .container09 {justify-content: space-around;}
+
+        /* align-items */
+        .container10 {align-items: flex-end;}
+        .container11 {align-items: center;}
+        .container13 {align-items: baseline;}
+        .container13 > div:nth-of-type(4) {height: 100px; font-size: 4em;}
+        .container15 {align-items: stretch;}
+        .container15 > div {height: unset;}
+
+        /* align-content */
+        .container18 {flex-wrap: wrap; align-content: center;}
+        .container19 {flex-wrap: wrap; align-content: flex-end;}
+        .container21 {flex-wrap: wrap; align-content: space-around;}
+        .container22 {flex-wrap: wrap; align-content: space-between;}
+
+        /* align-self */
+        .container23-1 > div:nth-of-type(3) {align-self: flex-end;}
+        .container23-2 {flex-direction: column;}
+        .container23-2 > div:nth-of-type(3) {align-self: flex-end;}
+
+
+        /* MAIN'S PARA FLEX-BASIS, FLEX-GROW, FLEX-SHRINK */
+        .wider {
+            width: 95%;
+        }
+
+        /* flex-basis */
+        .container24 {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .container24 > div {
+            flex-basis: 100px;
+        }
+
+        .container25 {
+            width: 100%;
+            flex-wrap: nowrap;
+        }
+        .container25 > div {
+            flex-basis: 100px;
+        }
+
+
+
+        /* FLEX-GROW */
+
+        /* flex-grow: EJEMPLO 1 */
+        .container26 {
+            width: 100%;
+            align-items: stretch;
+        }
+        .container26 > div:nth-of-type(1) {
+            flex-grow: 1;
+            font-size: small;
+            height: unset;
+        }
+        .container26 > div:nth-of-type(2) {
+            flex-grow: 4;
+            font-size: small;
+            height: unset;
+        }
+
+        /* flex-grow: EJEMPLO 2 */
+        .container27 {
+            width: 100%;
+            align-items: stretch;
+        }
+        .container27 > div:nth-of-type(1) {
+            flex-basis: 200px;
+            flex-grow: 1;
+            font-size: small;
+            height: unset;
+        }
+        .container27 > div:nth-of-type(2) {
+            flex-basis: 200px;
+            flex-grow: 4;
+            font-size: small;
+            height: unset;
+        }
+
+        /* FLEX-SHRINK */
+
+        /* flex-shrink: EJEMPLO 1 */
+        .container28 {
+            width: 100%;
+            align-items: stretch;
+        }
+        .container28 > div:nth-of-type(1) {
+            flex-basis: 100%;
+            flex-shrink: 1;
+            font-size: small;
+            height: unset;
+        }
+        .container28 > div:nth-of-type(2) {
+            flex-basis: 100%;
+            flex-shrink: 2;
+            font-size: small;
+            height: unset;
+        }
+
+        /* flex-shrink: EJEMPLO 2 */
+        .container29 {
+            width: 100%;
+            align-items: stretch;
+        }
+        .container29 > div:nth-of-type(1) {
+            flex-basis: 800px;
+            flex-shrink: 4;
+            font-size: small;
+            height: unset;
+        }
+        .container29 > div:nth-of-type(2) {
+            flex-basis: 800px;
+            flex-shrink: 5;
+            font-size: small;
+            height: unset;
+        }
+
+
+
+    </style>
+
+    <!-- <link rel="stylesheet" href="flexboxTest.css"> -->
+</head>
+<body>
+    <h1>Flexbox test, 29-12-2021</h1>
+    <h2>flex-direction</h2>
+
+    <main>
+        <h3>flex-direction: row;</h3>
+        <section class="container01"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></section>
+    </main>
+    <main>
+        <h3>flex-direction: row-reverse;</h3>
+        <section class="container03"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></section>
+    </main>
+    <main>
+        <h3>flex-direction: column;</h3>
+        <section class="container02"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></section>
+    </main>
+    <main>
+        <h3>flex-direction: column-reverse;</h3>
+        <section class="container04"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></section>
+    </main>
+
+    
+    <h2>flex-wrap</h2>
+    <main>
+        <h3>flex-wrap: wrap;</h3>
+        <section class="container05-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    <main>
+        <h3>flex-wrap: wrap-reverse;</h3>
+        <section class="container05-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    
+    <h2>justify-content</h2>
+    <p>Define la ubicación según el <u>main-axis</u>.<br>
+        Default: <b> justify-content: flex-start;</b> <br><br></p>
+    <main>
+        <h3>justify-content: flex-end;</h3>
+        <section class="container06">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>justify-content: center;</h3>
+        <section class="container07">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>justify-content: space-between;</h3>
+        <section class="container08">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>justify-content: space-around;</h3>
+        <section class="container09">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    
+    <h2>align-items</h2>
+    <p>Define la ubicación según el <u>cross-axis</u>.<br>
+        Default: <b> align-items: flex-start;</b> <br><br></p>
+    <main>
+        <h3>align-items: flex-end;</h3>
+        <section class="container10">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>align-items: center;</h3>
+        <section class="container11">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>align-items: baseline;</h3>
+        <section class="container13">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+
+    <main>
+        <h3>align-items: stretch;</h3><i>.container15 > div {height: unset;}</i>
+        <section class="container15">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+
+    <h2>align-content</h2>
+    <p>Controla el espacio entre las líneas o columnas.<br>
+        <u> Sólo tiene efecto cuando hay wrap</u>.<br><br></p>
+    <main>
+        <h3>align-content: center;</h3>
+        <section class="container18">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    <main>
+        <h3>align-content: flex-end;</h3>
+        <section class="container19">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    <main>
+        <h3>align-content: space-around;</h3>
+        <section class="container21">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    <main>
+        <h3>align-content: space-between;</h3>
+        <section class="container22">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    
+    <h2>align-self</h2>
+    <main>
+        <h3>align-self: flex-end;</h3>
+        <section class="container23-1">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+    <main>
+        <h3>align-self: flex-end;</h3>
+        <section class="container23-2">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <!-- <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div> -->
+        </section>
+    </main>
+
+    <h2>flex-basis</h2>
+    <p><b>flex-basis</b> se aplica en el elemento mismo (en los cuadraditos), no en el parent. <br> <br> </p>
+    
+    
+    <h3>flex-basis: 100px;</h3>
+    <h3>flex-wrap: wrap;</h3>
+    <main class="wider">
+        <section class="container24">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    
+    <h3>flex-basis: 100px;</h3>
+    <h3>flex-wrap: nowrap;</h3>
+    <main class="wider">
+        <section class="container25">
+            <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div><div>9</div><div>0</div>
+        </section>
+    </main>
+    
+    <h2>flex-grow</h2>
+    <p><b>flex-grow</b> controla en qué proporción los elementos contenidos van a crecer y ocupar el espacio sobrante en el main-axis. <br> <br> </p>
+    
+    <!-- <h3><b>flex-grow: 1; vs flex-grow: 4;<br>no tienen flex-basis</b></h3> -->
+    <main class="wider">
+        <section class="container26">
+            <div>flex-grow: 1;</div><div>flex-grow: 4;</div>
+        </section>
+    </main>
+    
+    <main class="wider">
+        <section class="container27">
+            <div>flex-grow: 1;<br>flex-basis: 200px;</div>
+            <div>flex-grow: 4;<br>flex-basis: 200px;</div>
+        </section>
+    </main>
+    
+    <h2>flex-shrink</h2>
+    <p><b>flex-shrink</b> controla en qué proporción los elementos se van a reducir y ocupar menos espacio en el main-axis, siempre y cuando los elementos tengan un tamaño inicial mayor que el main-axis (por ejemplo, pueden tener un tamaño mayoy definido en flex-basis). <br> <br> </p>
+    
+    <main class="wider">
+        <section class="container28">
+            <div>flex-shrink: 1;<br>flex-basis: 100%;</div>
+            <div>flex-shrink: 2;<br>flex-basis: 100%;</div>
+        </section>
+    </main>
+
+    <main class="wider">
+        <section class="container29">
+            <div>flex-shrink: 4;<br>flex-basis: 800px;</div>
+            <div>flex-shrink: 5;<br>flex-basis: 800px;</div>
+        </section>
+    </main>
+
+</body>
+</html>

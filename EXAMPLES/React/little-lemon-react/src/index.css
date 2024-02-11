@@ -1,0 +1,20 @@
+:root {
+  --logo-green-color: rgb(74, 94, 87);
+  --logo-yellow-color: rgb(243, 205, 52);
+  --nav-background-color: rgb(51, 51, 51);
+  --main-background-color: rgb(237, 239, 238);
+  --cards-color: rgb(244, 229, 215);
+  --shadow-color: rgba(135, 206, 235, 0.8);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-background-color);
+  font-family: "Arvo", serif;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(237, 239, 238);
+  font-family: 'Arvo', serif;
+}
+
+section {
+  /* background-color: darksalmon; */
+  margin: 1rem 5% 1rem 5%;
+  width: 90%;
+  border-radius: 1rem;
+
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  gap: 1rem;
+}
+
+article {
+  background-color: rgb(244, 229, 215);
+  color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  display: grid;
+  grid-template: auto auto 8fr 1fr / 1fr;
+  gap: 1rem;
+}
+
+article > img {
+  border-radius: 0.5rem;
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Underline Animation</title>
+
+    <style>
+      h1 a {
+        text-decoration: none;
+        position: relative;
+      }
+
+      a.effect-underline:after {
+        content: "";
+
+        position: absolute;
+        height: 2.5rem;
+        left: 0;
+        width: 100%;
+        border-bottom: 2px solid;
+
+        transition: opacity 0.35s, transform 0.35s;
+        transform: scale(0, 1);
+      }
+
+      a.effect-underline:hover:after {
+        opacity: 1;
+        transform: scale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="#" class="effect-underline">hello, world</a></h1>
+  </body>
+</html>

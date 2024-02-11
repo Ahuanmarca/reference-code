@@ -1,0 +1,48 @@
+/* 
+  Logo	      74, 94, 87
+  Nav	        51, 51, 51
+  Background	237, 239, 238
+  Cards	      243, 229, 215
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 239, 238);
+  font-family: 'Arvo', serif;
+}
+
+nav {
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  
+  display: flex;
+  gap: 1rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: rgb(237, 239, 238);
+  font-size: 1.5rem;
+}
+
+li > a:hover {
+  text-decoration: underline;
+}
+

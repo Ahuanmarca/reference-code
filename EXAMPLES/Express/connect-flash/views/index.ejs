@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>connect-flash test</p>
+    <hr>
+    <div style="font-weight: bold">
+        <% if (success.length > 0) { %>
+            <div style="color:blue">
+                <%= success %> 
+            </div>
+        <% } %>
+        <% if (failure.length > 0) { %>   
+            <div style="color:red">
+                <%= failure %> 
+            </div>
+        <% } %> 
+    </div>
+    <form action="/success" method="POST">
+        <button>Success</button>
+    </form>
+    <form action="/failure" method="POST">
+        <button>Failure</button>
+    </form>
+</body>
+</html>

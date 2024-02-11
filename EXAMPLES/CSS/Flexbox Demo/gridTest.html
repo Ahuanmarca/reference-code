@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Test</title>
+
+    <style>
+        
+        .container {
+            display: grid;
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            margin: 0 20px 0 20px;
+            max-width: 1000px;
+        }
+
+        .square {
+            /* height: 150px; */
+            /* width: 150px; */
+            font-size: 30px;
+            padding: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .square:nth-of-type(1n) {
+            background-color:lightcoral;
+            /* opacity: 80%; */
+        }
+        .square:nth-of-type(2n) {background-color:lightseagreen;}
+
+
+
+        .square:nth-of-type(1) {
+            grid-column: 1 / 4;
+        }
+        .square:nth-of-type(2) {
+            grid-column: 4 / 5;
+            grid-row: 1 / 4;
+        }
+        /* .square:nth-of-type(5) {
+            grid-column: 3 / 5;
+            grid-row: 2 / 3;
+        } */
+        .square:nth-of-type(9) {
+            grid-column: 1 / 5;
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="gridTest.css"> -->
+</head>
+<body>
+    <div class="container">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+            <div class="square">6</div>
+            <div class="square">7</div>
+            <div class="square">8</div>
+            <div class="square">9</div>
+    </div>
+
+
+</body>
+</html>
