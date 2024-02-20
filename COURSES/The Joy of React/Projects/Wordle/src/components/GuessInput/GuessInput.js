@@ -11,9 +11,10 @@ function GuessInput({ handleSubmitGuess, disabled }) {
 
   return (
     <>
-      <form className="guess-input-wrapper" onSubmit={handleSubmit}>
+      <form autoComplete="off" className="guess-input-wrapper" onSubmit={handleSubmit}>
         <label htmlFor="guess-input">Enter guess:</label>
         <input
+          autoComplete="false"
           disabled={disabled}
           required
           id="guess-input"
