@@ -1,0 +1,648 @@
+<div data-v-1cfcab3a="true" class="cx-auth-wrapper open-login inherited-styles-for-exported-element">
+  <div data-v-1cfcab3a="true" class="cx-overlay"></div>
+  <div data-v-1cfcab3a="true" class="cx-auth-modal">
+    <div data-v-f39e777e="true" data-v-1cfcab3a="true" class="modal-dialog-centered">
+      <div data-v-f39e777e="true" class="auth-modal-content">
+        <header data-v-f39e777e="true" class="auth-modal-head mb-m md-mb-l">
+          <div data-v-f39e777e="" class="auth-modal-heading">Iniciar Sesión</div><button data-v-f39e777e="" class="auth-modal-close"><i data-v-f39e777e="" class="cx-icon-close"></i></button>
+        </header>
+        <form data-v-f39e777e="" id="loginForm">
+          <div data-v-f39e777e="" class="auth-modal-body">
+            <div data-v-f39e777e="" class="mb-m md-mb-base">
+              <!---->
+              <div data-v-23342a9f="" data-v-f39e777e="" class="cx-alert radius-xl success-alerts default-alerts" id="dispBlock" style="display: none;">
+                <div data-v-23342a9f="" class="cx-alert-content"><i data-v-23342a9f="" class="cx-icon-error alert-icon"></i>
+                  <div data-v-23342a9f="" class="cx-alert-message"><span data-v-23342a9f="">Tu dirección de correo electrónico aún está pendiente de verificación. haz clic <a href="javascript:void(0)" id="emailResendConfirmationLink">aquí</a> para volver a enviar el enlace de verificación</span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <div data-v-f39e777e="" class="mb-m md-mb-base">
+              <div data-v-23342a9f="" data-v-f39e777e="" class="cx-alert radius-xl success-alerts default-alerts" style="display: none;">
+                <div data-v-23342a9f="" class="cx-alert-content"><i data-v-23342a9f="" class="cx-icon-error alert-icon"></i>
+                  <div data-v-23342a9f="" class="cx-alert-message"><span data-v-23342a9f="">El enlace para verificar que tu dirección de correo electrónico ya ha sido utilizado, ha caducado o no es válido. Haga clic <a href="javascript:void(0)" id="emailResendConfirmationLinkSignup">aquí</a> para volver a enviar el correo electrónico de verificación.</span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <!---->
+            <div data-v-f39e777e="" class="mb-m md-mb-base word-wrap-break d-flex align-items-start" style="display: none;"><i data-v-f39e777e="" class="cx-icon-sucess mr-xs green-tick"></i>
+              <div data-v-f39e777e=""></div>
+            </div>
+            <div data-v-f39e777e="" class="d-flex mb-m md-mb-base">
+              <p data-v-f39e777e="" class="mr-xxs md-mr-s">¿No tienes cuenta?</p><a data-v-f39e777e="" class="text-sm md-text-base font-semibold">¡Regístrate!</a>
+            </div>
+            <div data-v-f39e777e="" class="mb-m md-mb-base">
+              <div data-v-f74f1277="" data-v-f39e777e="" class="form-group"><label data-v-f74f1277="" class="textfield-title">Dirección de email</label>
+                <div data-v-f74f1277="" class="textfield">
+                  <!---->
+                  <!----><input data-v-f74f1277="" type="text" name="email" placeholder="Dirección de email" maxlength="" minlength="" tabindex="" autocomplete="off" data-at=""><i data-v-f74f1277="" class="cx-icon- right"></i>
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div data-v-f39e777e="" class="mb-base">
+              <div data-v-f74f1277="" data-v-f39e777e="" class="form-group"><label data-v-f74f1277="" class="textfield-title">Contraseña</label>
+                <div data-v-f74f1277="" class="textfield">
+                  <!---->
+                  <!----><input data-v-f74f1277="" type="password" name="password" id="loginPassword" placeholder="Contraseña" maxlength="" minlength="" tabindex="" autocomplete="off" data-at=""><i data-v-f74f1277="" data-id="loginPassword" class="cx-icon-visibility-off right"></i>
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+            <div data-v-f39e777e="" class="mb-base"><a data-v-f39e777e="" class="text-sm md-text-sm font-semibold" data-at="LoginModalForgotPasswordLink">¿Olvidaste tu contraseña?</a></div>
+          </div>
+          <footer data-v-f39e777e="" class="auth-modal-foot">
+            <div data-v-f39e777e="" class="auth-button-container"><button data-v-6d879e1f="" data-v-f39e777e="" class="cx-btn cx-btn-md cx-btn-block cx-btn-primary" type="submit" istext=""><span data-v-6d879e1f="" class="cx-btn-content">
+                  <!----><span data-v-6d879e1f="" class="btn-text">Iniciar Sesión</span>
+                  <!---->
+                  <!---->
+                </span></button></div>
+          </footer>
+        </form>
+        <div data-v-f39e777e="" id="loginmodulerecaptcha">
+          <div class="grecaptcha-badge" data-style="bottomleft" style="width: 256px; height: 60px; display: block; transition: left 0.3s ease 0s; position: fixed; bottom: 14px; left: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-u4t3uyf3fqkq" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeJGvwUAAAAACRrkKN1AmgqHPxLNh1YMGraggyA&amp;co=aHR0cHM6Ly9lcy53ZWJ1eS5jb206NDQz&amp;hl=en&amp;v=1kRDYC3bfA-o6-tsWzIBvp7k&amp;size=invisible&amp;badge=bottomleft&amp;cb=iqqjhykwof5t"></iframe></div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+          </div><iframe style="display: none;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  p {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  a {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  button, input, textarea {
+    font-family: inherit;
+    line-height: 1.15;
+    margin: 0;
+    overflow: auto;
+  }
+
+  button, input {
+    overflow: visible;
+  }
+
+  button, textarea {
+    font-size: 100%;
+    padding: 0;
+  }
+
+  button {
+    text-transform: none;
+  }
+
+  .inherited-styles-for-exported-element {
+    color: #0d0d0d;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    letter-spacing: -.3px;
+    line-height: 20px;
+  }
+
+  [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+
+  [type=submit], button {
+    appearance: button;
+  }
+
+  .text-sm {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  @media (min-width: 768px) {
+    .md-text-sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .md-text-base {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .font-semibold {
+    font-weight: 600;
+  }
+
+  [class^=cx-icon-] {
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .mr-xxs {
+    margin-right: 4px;
+  }
+
+  .mr-xs {
+    margin-right: 8px;
+  }
+
+  .mb-base {
+    margin-bottom: 16px;
+  }
+
+  .mb-m {
+    margin-bottom: 24px;
+  }
+
+  .radius-xl {
+    border-radius: 20px;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .align-items-start {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .md-mr-s {
+      margin-right: 12px;
+    }
+
+    .md-mb-base {
+      margin-bottom: 16px;
+    }
+
+    .md-mb-l {
+      margin-bottom: 32px;
+    }
+  }
+
+  .word-wrap-break {
+    overflow-wrap: break-word;
+  }
+
+  .cx-overlay {
+    background-color: rgba(0, 0, 0, .64);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all .8s cubic-bezier(.78, .13, .15, .86);
+    width: 100vw;
+    will-change: opacity;
+    z-index: 999;
+  }
+
+  .cx-auth-wrapper {
+    position: relative;
+  }
+
+  .cx-auth-modal {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    transition: all .8s cubic-bezier(.78, .13, .15, .86);
+    width: 100%;
+    z-index: 1050;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal {
+      left: 0;
+      opacity: 0;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  :host {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  [type=submit]:focus-visible, button:focus-visible {
+    outline: 1px dotted buttontext;
+  }
+
+  input:autofill, input:autofill:active, input:autofill:focus, input:autofill:hover {
+    background-clip: text;
+  }
+
+  .cx-icon-close::before {
+    content: "";
+  }
+
+  .cx-icon-error::before {
+    content: "";
+  }
+
+  .cx-icon-sucess::before {
+    content: "";
+  }
+
+  .cx-icon-visibility-off::before {
+    content: "";
+  }
+
+  .cx-auth-modal a, .cx-auth-modal a[data-v-f39e777e] {
+    color: #0d0d0d;
+    text-decoration: underline currentcolor solid;
+  }
+
+  .cx-btn[data-v-6d879e1f] {
+    align-self: center;
+    border-image: none 100% 1 0 stretch;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: medium currentcolor;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none currentcolor solid;
+    transition: all .8s cubic-bezier(.78, .13, .15, .86);
+    white-space: nowrap;
+  }
+
+  .cx-btn-content[data-v-6d879e1f] {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: center;
+    line-height: normal;
+    position: relative;
+    transition: opacity inherit inherit inherit;
+  }
+
+  .cx-btn-block[data-v-6d879e1f] {
+    display: block;
+    width: 100%;
+  }
+
+  .cx-btn-md[data-v-6d879e1f] {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 8.5px 15px;
+  }
+
+  .cx-btn-primary[data-v-6d879e1f] {
+    background-color: #e20a03;
+    border-color: #e20a03;
+    color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    .cx-btn-md[data-v-6d879e1f] {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 11px 24px;
+    }
+  }
+
+  .cx-alert[data-v-23342a9f] {
+    background-color: #fee3e1;
+    color: #0d0d0d;
+    padding: 24px 16px;
+  }
+
+  .cx-alert-content[data-v-23342a9f] {
+    align-items: center;
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: unset;
+  }
+
+  .cx-alert-message[data-v-23342a9f] {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-alert[data-v-23342a9f] {
+      padding: 26px 18px;
+    }
+
+    .cx-alert-message[data-v-23342a9f] {
+      align-items: center;
+      display: flex;
+      flex-direction: unset;
+      flex-wrap: unset;
+      font-size: 14px;
+      font-weight: 400;
+      justify-content: unset;
+      line-height: 18px;
+    }
+  }
+
+  .form-group[data-v-f74f1277] {
+    line-height: 16px;
+    position: relative;
+    width: auto;
+  }
+
+  @media (min-width: 768px) {
+    .form-group[data-v-f74f1277] {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .green-tick[data-v-f39e777e] {
+    color: #187700;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .open-login .cx-auth-modal {
+    bottom: 0;
+    visibility: visible;
+  }
+
+  @media (min-width: 768px) {
+    .open-login .cx-auth-modal {
+      bottom: unset;
+    }
+  }
+
+  .cx-alert-message span[data-v-23342a9f] {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 8px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-alert-message span[data-v-23342a9f] {
+      margin-bottom: 0;
+    }
+  }
+
+  .cx-auth-modal .form-group label {
+    line-height: 16px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .form-group label {
+      line-height: 18px;
+    }
+  }
+
+  .cx-btn-md .btn-text[data-v-6d879e1f] {
+    margin-left: 10px;
+  }
+
+  .cx-btn[data-v-6d879e1f]:disabled {
+    border-color: #e6e6e6;
+    cursor: default;
+  }
+
+  @media (min-width: 768px) {
+    .cx-btn-primary[data-v-6d879e1f]:hover {
+      background-color: #b50802;
+    }
+  }
+
+  .cx-btn-primary[data-v-6d879e1f]:active {
+    background-color: #e20a03;
+    border-color: #e20a03;
+    color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    .cx-btn-md .btn-text[data-v-6d879e1f] {
+      margin-left: 12px;
+    }
+  }
+
+  .cx-alert .alert-icon[data-v-23342a9f] {
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 14px;
+  }
+
+  .form-group .textfield-title[data-v-f74f1277] {
+    color: #0d0d0d;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .form-group .textfield[data-v-f74f1277] {
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f9f9f9;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+    border: 1px solid #f2f2f2;
+    border-image: none 100% 1 0 stretch;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: left;
+  }
+
+  @media (min-width: 768px) {
+    .form-group .textfield-title[data-v-f74f1277] {
+      font-size: 14px;
+    }
+
+    .form-group .textfield[data-v-f74f1277] {
+      border-radius: 24px;
+    }
+  }
+
+  .cx-auth-modal .modal-dialog-centered[data-v-f39e777e] {
+    height: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .modal-dialog-centered[data-v-f39e777e] {
+      align-items: center;
+      display: flex;
+      height: unset;
+      min-height: calc(100% - 3.5rem);
+    }
+  }
+
+  .cx-auth-modal .auth-modal-content[data-v-f39e777e] {
+    background-color: #fff;
+    min-height: 100%;
+    padding: 24px;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .auth-modal-content[data-v-f39e777e] {
+      border-radius: 24px;
+      height: auto;
+      margin: 24px auto;
+      max-width: 612px;
+      min-height: auto;
+      padding: 32px;
+    }
+  }
+
+  .cx-auth-modal .auth-modal-head[data-v-f39e777e] {
+    align-items: center;
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: space-between;
+  }
+
+  .cx-auth-modal .auth-modal-close[data-v-f39e777e], .form-group .textfield input[data-v-f74f1277] {
+    background-color: transparent;
+    border-color: currentcolor;
+    border-image: none 100% 1 0 stretch;
+    border-style: none;
+  }
+
+  .cx-auth-modal .auth-modal-close[data-v-f39e777e] {
+    border-width: medium;
+    cursor: pointer;
+    outline: medium currentcolor;
+  }
+
+  .cx-auth-wrapper.open-login .cx-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-wrapper.open-login .cx-auth-modal {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .form-group .textfield input[data-v-f74f1277] {
+    border-width: 0;
+    color: #4d4d4d;
+    font-size: 14px;
+    padding: 12px;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .form-group .textfield input[data-v-f74f1277] {
+      font-size: 16px;
+      padding: 14px;
+    }
+  }
+
+  .cx-auth-modal .auth-modal-content p[data-v-f39e777e] {
+    color: #0d0d0d;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .auth-modal-content p[data-v-f39e777e] {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .cx-auth-modal .auth-modal-close i[data-v-f39e777e] {
+    color: #0d0d0d;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .auth-modal-close i[data-v-f39e777e] {
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+    .cx-btn[data-v-6d879e1f]:not(.no-scale):hover {
+      transform: scale(1.05);
+      transform-origin: center center 0;
+    }
+  }
+
+  .cx-btn[data-v-6d879e1f]:disabled, .cx-btn[data-v-6d879e1f]:disabled:hover {
+    background-color: #e6e6e6;
+    color: #b3b3b3;
+  }
+
+  .cx-btn .btn-text[data-v-6d879e1f]:first-child {
+    margin-left: 0;
+  }
+
+  @media (min-width: 768px) {
+    .cx-btn .btn-text[data-v-6d879e1f]:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .cx-auth-modal .auth-modal-head .auth-modal-heading[data-v-f39e777e] {
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  @media (min-width: 768px) {
+    .cx-auth-modal .auth-modal-head .auth-modal-heading[data-v-f39e777e] {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+
+  .form-group .textfield input[data-v-f74f1277]:focus {
+    outline: medium currentcolor;
+  }
+
+  .form-group .textfield i.right[data-v-f74f1277] {
+    color: #0d0d0d;
+    font-size: 18px;
+    justify-content: right;
+    padding-right: 14px;
+  }
+
+  @media (min-width: 768px) {
+    .form-group .textfield i.right[data-v-f74f1277] {
+      font-size: 20px;
+    }
+  }
+
+  [class^=cx-icon-] {
+    font-family: cx-icon, serif !important;
+  }
+</style>

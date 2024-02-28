@@ -1,0 +1,139 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+figure,
+h1,
+h3,
+ol,
+p,
+ul {
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none currentcolor solid;
+}
+
+main {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+textarea {
+  font-family: inherit;
+  line-height: 1.15;
+  margin: 0;
+  font-size: 100%;
+  overflow: auto;
+  padding: 0;
+}
+
+input {
+  font-family: inherit;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button {
+  font-family: inherit;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  font-size: 100%;
+  padding: 0;
+  text-transform: none;
+  appearance: button;
+}
+
+.inherited-styles-for-exported-element {
+  color: #0d0d0d;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 20px;
+}
+
+.memento-500-fill {
+  background-color: #2ef3cf;
+}
+
+.pink-500-fill {
+  background-color: #e867e3;
+}
+
+.sonic-500-fill {
+  background-color: #51b8f5;
+}
+
+.frogger-500-fill {
+  background-color: #c0f32f;
+}
+
+.yellow-500-fill {
+  background-color: #ffc700;
+}
+
+.yellow-500-color {
+  color: #ffc700;
+}
+
+.trainspotting-500-fill {
+  background-color: #ff8311;
+}
+
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:focus-visible {
+  outline: 1px dotted buttontext;
+}
+
+.cx-header .cx-logo[data-v-bcbbe0b2] {
+  clip-path: polygon(
+    70% 10%,
+    84% 17%,
+    97% 17%,
+    98% 19%,
+    98% 36%,
+    100% 47%,
+    99% 62%,
+    99% 81%,
+    99% 82%,
+    86% 81%,
+    78% 85%,
+    69% 90%,
+    58% 99%,
+    42% 98%,
+    28% 94%,
+    16% 86%,
+    6% 74%,
+    0 58%,
+    0 35%,
+    9% 20%,
+    18% 11%,
+    30% 4%,
+    43% 0,
+    56% 0,
+    65% 4%
+  );
+  width: 45px;
+}
