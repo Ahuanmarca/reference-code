@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Space</title>
+    <!-- <link href="./reset.css" rel="stylesheet" /> -->
+    <link href="./prism.css" rel="stylesheet" />
+
+    <!-- CSS Styles NOT to be displayed -->
+    <style>
+      .super-container {
+        font-family: "Courier New", Courier, monospace;
+        padding: 12px;
+      }
+      .max-width-wrapper {
+        max-width: 600px;
+      }
+      .image-group {
+        width: 80%;
+        margin: 20px auto;
+        padding: 1rem;
+        border: 2px dashed gray;
+        display: flex;
+        gap: 1rem;
+      }
+    </style>
+
+    <!-- CSS Styles to be displayed -->
+    <style class="real-css">
+      .image-container {
+        border: 2px dashed gray;
+      }
+      .image {
+        width: 100%;
+        /* display: block; */
+      }
+    </style>
+
+    <!-- Secondary CSS to be displayed -->
+    <style class="secondary-css">
+      .image-container {
+        border: 2px dashed gray;
+      }
+      .block-image {
+        width: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="super-container">
+      <div class="max-width-wrapper">
+        <h1>Inline Elements "Magic" Space</h1>
+        <p>
+          Why is there a gap below the images within their containers? Because
+          inline elementes behave like text.
+        </p>
+      </div>
+      <!-- EXAMPLES -->
+      <!-- Markup here -->
+      <div class="max-width-wrapper">
+        <main class="image-group">
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/-gVbNMfflXI"
+              alt="Plants on pots"
+              class="image"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/G3Zvg5Orb6c"
+              alt="Macro plants"
+              class="image"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/sFydXGrt5OA"
+              alt="Watering plants"
+              class="image"
+            />
+          </div>
+        </main>
+      </div>
+
+      <!-- DISPLAY CSS -->
+      <p>CSS Styles</p>
+      <div class="max-width-wrapper">
+        <pre><code class="display-css language-css"></code></pre>
+      </div>
+
+      <p>To solve the issue, we can add a <code>display: block</code> rule to the images.</p>
+
+      <!-- SECOND IMAGE GROUP (CORRECTED) -->
+      <div class="max-width-wrapper">
+        <main class="image-group">
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/-gVbNMfflXI"
+              alt="Plants on pots"
+              class="block-image"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/G3Zvg5Orb6c"
+              alt="Macro plants"
+              class="block-image"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="https://source.unsplash.com/sFydXGrt5OA"
+              alt="Watering plants"
+              class="block-image"
+            />
+          </div>
+        </main>
+      </div>
+
+      <!-- DISPLAY CSS -->
+      <p>CSS Styles</p>
+      <div class="max-width-wrapper">
+        <pre><code class="display-secondary-css language-css"></code></pre>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".real-css").textContent;
+        document.querySelector(".display-css").textContent = realCSS;
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".secondary-css").textContent;
+        document.querySelector(".display-secondary-css").textContent = realCSS;
+      });
+    </script>
+    <script src="./prism.js"></script>
+  </body>
+</html>
