@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Width Algorithms</title>
+    <!-- <link href="./reset.css" rel="stylesheet" /> -->
+    <link href="./prism.css" rel="stylesheet" />
+
+    <!-- CSS Styles NOT to be displayed -->
+    <style>
+      .super-container {
+        font-family: "Courier New", Courier, monospace;
+        padding: 12px;
+      }
+      .max-width-wrapper {
+        border-inline-end: 5px solid darkgray;
+        max-width: 600px;
+      }
+    </style>
+
+    <!-- CSS Styles to be displayed -->
+    <style class="real-css">
+      h2 {
+        background-color: hotpink;
+      }
+      .min-content {
+        width: min-content;
+      }
+      .max-content {
+        width: max-content;
+      }
+      .fit-content {
+        width: fit-content;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="super-container">
+      <h1>Width Algorithms</h1>
+
+      <div class="max-width-wrapper">
+        <!-- EXAMPLES -->
+        <!-- Markup here -->
+        <p>
+          A heading with <code>width: auto;</code> (the default). The element
+          grows to fill it's container.
+        </p>
+        <h2 class="auto">I have default width</h2>
+
+        <p>A heading with <code>width: min-content;</code></p>
+        <h2 class="min-content">This heading width is set to min-content</h2>
+
+        <p>
+          A short heading with <code>width: max-content;</code> - The element's
+          width is the same as it's contents, without breaking them.
+        </p>
+        <h2 class="max-content">Hello, World!</h2>
+        <p>
+          With <code>max-content</code>, if the content's width is greater than
+          it's parent, it will overflow it.
+        </p>
+        <h2 class="max-content">
+          This header with max-content will overflow it's parent!
+        </h2>
+        <p>
+          We can have breaking lines that adjust to content correctly with
+          <code>width: fit-content</code>
+        </p>
+        <h2 class="fit-content">
+          Short header with fit-content
+        </h2>
+        <h2 class="fit-content">
+          Long header with fit-content that won't overflow it's parent
+        </h2>
+
+      </div>
+
+      <!-- DISPLAY CSS -->
+      <p>CSS Styles</p>
+      <div class="max-width-wrapper">
+        <pre><code class="display-css language-css"></code></pre>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".real-css").textContent;
+        document.querySelector(".display-css").textContent = realCSS;
+      });
+    </script>
+    <script src="./prism.js"></script>
+  </body>
+</html>

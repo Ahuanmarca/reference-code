@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <!-- <link href="./reset.css" rel="stylesheet" /> -->
+    <link href="./prism.css" rel="stylesheet" />
+
+    <!-- CSS Styles NOT to be displayed -->
+    <style>
+      .super-container {
+        font-family: "Courier New", Courier, monospace;
+        padding: 12px;
+      }
+      .max-width-wrapper {
+        max-width: 600px;
+      }
+    </style>
+
+    <!-- CSS Styles to be displayed -->
+    <style class="real-css">
+      figure {
+        padding: 8px;
+        border: 1px solid;
+        margin-bottom: 32px;
+        width: min-content;
+      }
+
+      figure img {
+        margin-bottom: 8px;
+      }
+
+      figcaption {
+        text-align: center;
+        color: #666666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="super-container">
+      <h1>Cards <code>min-width</code></h1>
+
+      <!-- EXAMPLES -->
+      <!-- Markup here -->
+      <figure>
+        <img
+          alt="A hallway with rainbow-colored lighting"
+          src="https://courses.joshwcomeau.com/cfj-mats/wall-art.jpg"
+          style="width: 200px"
+        />
+        <figcaption>
+          Photo by Efe Kurnaz in Camp Nou, Barcelona, Spain. Found on Unsplash.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          alt="A yawning kitten"
+          src="https://courses.joshwcomeau.com/cfj-mats/cat-avatar-250px.jpg"
+          style="width: 250px"
+        />
+        <figcaption>Unknown photographer. Found on Unsplash.</figcaption>
+      </figure>
+
+      <!-- DISPLAY CSS -->
+      <p>CSS Styles</p>
+      <div class="max-width-wrapper">
+        <pre><code class="display-css language-css"></code></pre>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".real-css").textContent;
+        document.querySelector(".display-css").textContent = realCSS;
+      });
+    </script>
+    <script src="./prism.js"></script>
+  </body>
+</html>
