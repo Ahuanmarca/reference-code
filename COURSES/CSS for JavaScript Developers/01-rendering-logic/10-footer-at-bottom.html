@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+    <link href="./reset.css" rel="stylesheet" />
+    <link href="./prism.css" rel="stylesheet" />
+
+    <!-- CSS Styles NOT to be displayed -->
+    <style>
+      .super-container {
+        font-family: "Courier New", Courier, monospace;
+        padding: 12px;
+      }
+      .max-width-wrapper {
+        max-width: 600px;
+      }
+    </style>
+
+    <!-- CSS Styles to be displayed -->
+    <style class="real-css">
+      /* Styles here */
+      .super-container {
+        height: 100vh;
+        height: 100svh;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer {
+        border: solid hotpink;
+        padding: 8px;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <main class="super-container">
+      <h1>Footer at the bottom</h1>
+      <h2>The wrapper div still fills the viewport.</h2>
+      <!-- DISPLAY CSS -->
+      <p>CSS Styles</p>
+      <div class="max-width-wrapper">
+        <pre><code class="display-css language-css"></code></pre>
+      </div>
+      <!-- EXAMPLES -->
+      <!-- Markup here -->
+      <footer class="footer">
+        I'm at the bottom
+      </footer>
+
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".real-css").textContent;
+        document.querySelector(".display-css").textContent = realCSS;
+      });
+    </script>
+    <script src="./prism.js"></script>
+  </body>
+</html>

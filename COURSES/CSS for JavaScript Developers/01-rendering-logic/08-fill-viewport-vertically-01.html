@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewport Height 1</title>
+    <link href="./reset.css" rel="stylesheet" />
+    <link href="./prism.css" rel="stylesheet" />
+
+    <!-- CSS Styles NOT to be displayed -->
+    <style>
+      .super-container {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .max-width-wrapper {
+        max-width: 600px;
+      }
+      .highlight {
+        background-color: mintcream;
+        color: hotpink;
+        font-weight: bold;
+      }
+    </style>
+
+    <!-- CSS Styles to be displayed -->
+    <style class="real-css">
+      html,
+      body {
+        height: 100%;
+      }
+      .wrapper {
+        min-height: 100%;
+        border: 15px solid hotpink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="super-container wrapper">
+      <h1>I fill the viewport!</h1>
+
+      <!-- EXAMPLES -->
+      <!-- Markup here -->
+      <div class="max-width-wrapper">
+        <p>
+          Setting <code class="highlight">height: 100%;</code> on the html and
+          body tags, then setting
+          <code class="highlight">min-height: 100%;</code> on the main wrapper
+          of your content.
+        </p>
+        <p>
+          <strong>Note:</strong> We needed to include the
+          <code>reset.css</code> file for this to work.
+        </p>
+      </div>
+
+      <!-- DISPLAY CSS -->
+      <h2>CSS Styles</h2>
+      <div class="max-width-wrapper">
+        <pre><code class="display-css language-css"></code></pre>
+      </div>
+
+      <div class="max-width-wrapper">
+        <p>
+          If using React or Next.js, we need to include selectors for every
+          element that sits between the root html tag, and the element we want
+          to stretch to 100% of the screen size.
+        </p>
+      </div>
+
+      <div class="max-width-wrapper">
+        <pre>
+          <code class="language-css">
+        html,
+        body,
+        #root, /* for create-react-app */
+        #__next /* for Next.js */ {
+          height: 100%;
+        }</code>
+        </pre>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let realCSS = document.querySelector(".real-css").textContent;
+        document.querySelector(".display-css").textContent = realCSS;
+      });
+    </script>
+    <script src="./prism.js"></script>
+  </body>
+</html>
