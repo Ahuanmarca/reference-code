@@ -1,43 +1,35 @@
-// Function parameter type annotations:
-const doSomething = (person: string, age: number, isFunny: boolean) => {};
-
-// Return type annotation:
+// Function type annotions
 function greet(person: string = "stranger"): string {
   return `Hi there, ${person}!`;
 }
-
-function square(num: number): number {
-  return num * num;
-}
-
-square(3);
-greet("Tonya Harding");
-doSomething("ChickenFace", 78, true);
-
-// Arrow function:
-const add = (x: number, y: number): number => {
-  return x + y;
-};
+greet("Renzo");
+greet();
 
 // Contextual Type Clues
-const colors = ["red", "orange", "yellow"];
+const colors = ["red", "orange", "yellow"]; // Type will be string
+// When using .map, TypeScript infers the type correctly
 colors.map((color) => {
   return color.toUpperCase();
 });
 
-// Void
+// Generic function: Reusable function that can receive different types, and we still get the benefits of type checking
+function first<T>(elements: Array<T>): T {
+  return elements[0];
+}
+first<boolean>([true, false]);
+first(['foo', 'bar']); // Generics can be infered when calling generic functions
+
+// Void: Return nothing
 function printTwice(msg: string): void {
   console.log(msg);
   console.log(msg);
 }
+printTwice('noc');
 
-// Never
+// Never: Do not return, do not finish executing the function
 function makeError(msg: string): never {
   throw new Error(msg);
 }
+makeError('oops!')
 
-function gameLoop(): never {
-  while (true) {
-    console.log("GAME LOOP RUNNING!");
-  }
-}
+// console.log("I'm unreachable code");
