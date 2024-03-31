@@ -1,0 +1,69 @@
+table products {
+  id int [primary key]
+  gameTitle_id int
+  platform_id int
+  stock int
+  listedDate date // date of inclussion in our database
+  price float
+}
+ref: products.gameTitle_id < gameTitles.id
+ref: products.platform_id < platforms.id
+
+table gameTitles {
+  id int [primary key]
+  title varchar
+  description varchar
+  image varchar
+}
+
+table users {
+  id int [primary key]
+  firstName varchar
+  lastName varchar
+  isAdmin boolean
+  email varchar
+  password varchar
+  validated boolean
+  credit float
+  points int
+}
+
+table orders_products {
+  id int [primary key]
+  product_id int
+  order_id int
+  quantity int
+  price_sold float
+}
+ref: orders_products.order_id < orders.id
+ref: orders_products.product_id < products.id
+
+table platforms {
+  id int [primary key]
+  name varchar
+}
+
+table genres {
+  id int [primary key]
+  name varchar
+}
+
+table genres_gameTitles {
+  id int [primary key]
+  genre_id int
+  gameTitle_id int
+}
+ref: genres_gameTitles.genre_id < genres.id
+ref: genres_gameTitles.gameTitle_id < gameTitles.id
+
+
+
+table orders {
+  id int [primary key]
+  date date
+  user_id int
+  total float
+}
+ref: orders.user_id > users.id
+
+

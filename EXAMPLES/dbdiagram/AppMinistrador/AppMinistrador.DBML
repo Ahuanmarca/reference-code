@@ -1,0 +1,92 @@
+table buildings {
+  id integer [primary key]
+  address varchar(255)
+}
+
+table properties {
+  id integer [primary key]
+  door int
+  building_id int
+}
+ref: properties.building_id - buildings.id
+
+table people {
+  id integer [primary key]
+  name varchar(255)
+  surname varchar(255)
+  second_surname varchar(255)
+  email varchar(255)
+  phone varchar(255)
+}
+
+table neighbors_properties {
+  neighbor_id int
+  property_id int
+}
+ref: neighbors_properties.neighbor_id - people.id
+ref: neighbors_properties.property_id - properties.id
+
+table owners_properties {
+  owner_id int
+  property_id int
+}
+ref: owners_properties.owner_id - people.id
+ref: owners_properties.property_id - properties.id
+
+table users {
+  id int [primar key]
+  name varchar(255)
+  surname varchar(255)
+  secondSurname varchar(255)
+  email varchar(255)
+  phone varchar(255)
+  isPresident boolean
+  isAdmin boolean
+}
+
+table users_buildings {
+  user_id int
+  building_id int
+}
+ref: users_buildings.user_id - users.id
+ref: users_buildings.building_id - buildings.id
+
+table incidents {
+  id int [primary key]
+  title varchar(255)
+  title varchar(500)
+  type varchar(55)
+  moment datetime
+  user_id int
+}
+ref: incidents.user_id - users.id
+
+
+
+
+// table incident_types {
+//   id int [primary key]
+//   description varchar(255)
+// }
+
+// table buildings_incidents {
+//   building_id int
+//   incident_id int
+// }
+// ref: buildings_incidents.building_id < buildings.id
+// ref: buildings_incidents.incident_id < incidents.id
+
+// table suppliers {
+//   name varchar(255)
+//   email varchar(255)
+// }
+
+// table suppliers_indicentTypes {
+//   supplier_id
+//   incidentType_id
+// }
+// ref: suppliers_incidentTypes.supplier_id < supliers.id
+// ref: suppliers_incidentTypes.incidentType_id < incident_types.id
+
+
+
