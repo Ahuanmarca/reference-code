@@ -1,6 +1,19 @@
-/* Generic Types
+// Generic Types
 
-*/
+// Function without generics
+function returnFirst(arr: any[]) {
+  return arr[0];
+}
+returnFirst([37, 'hello', true]);
+
+// Functoin with generics
+function returnOne<T>(arr: T[]) {
+  return arr[0];
+}
+returnOne<number>([37, 'hello', true]);
+
+
+
 
 type Role = "admin" | "editor";
 const roles: Array<Role> = ["admin", "editor"];
