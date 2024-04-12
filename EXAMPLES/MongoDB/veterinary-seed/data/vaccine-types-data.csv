@@ -1,0 +1,18 @@
+Number,Vaccine,Type,Description,Species
+1,Dispemper,Core,"Protects against canine distemper, a highly contagious and often fatal viral disease.",dog
+2,Parvovirus,Core,"Prevents parvovirus infection, a severe and potentially deadly gastrointestinal illness.",dog
+3,Adenovirus (Hepatitis),Core,"Guards against infectious canine hepatitis caused by adenovirus.",dog
+4,Rabies,Core,"Provides immunity against rabies, a deadly viral disease that can affect dogs and humans.",dog
+5,Bordetella (Kennel Cough),Non-Core,"Advised for dogs in environments where they may be exposed to kennel cough, such as boarding facilities or dog parks.",dog
+6,Leptospirosis,Non-Core,"Recommended for dogs at risk of exposure to leptospirosis, a bacterial disease often found in water sources.",dog
+7,Canin Influenza,Non-Core,"Particularly for dogs in areas where canine influenza is prevalent or for those with a higher risk of exposure.",dog
+8,Lyme Disease,Lifestile or Specific-Specific,"Recommended for dogs in regions where Lyme disease is prevalent, as it is transmitted by ticks.",dog
+9,Rattlesnaje Vaccine,Lifestile or Specific-Specific,"In areas with a high risk of rattlesnake bites, this vaccine may be considered.",dog
+10,Feline Panleukopenia (FPV),Core,"Protects against feline panleukopenia, also known as feline distemper, a highly contagious and potentially fatal viral disease.",cat
+11,Feline Herpesvirus (FHV-1),Core,"Guards against feline herpesvirus, a common cause of upper respiratory infections in cats.",cat
+12,Feline Calicivirus (FCV),Core,"Prevents feline calicivirus infection, another major contributor to respiratory disease in cats.",cat
+13,Rabies,Core,"Provides immunity against rabies, a deadly viral disease that affects cats and can be transmitted to humans.",cat
+14,Feline Leukemia Virus (FeLV),Core,"Advised for cats at risk of exposure to feline leukemia, a contagious virus that can lead to various health issues.",cat
+15,Feline Immunodeficiency Virus (FIV),Core,"Recommended for outdoor cats or those in multi-cat households where there is a risk of FIV transmission.",cat
+16,Chlamydia,Core,"In certain situations, especially in multi-cat environments or catteries, vaccination against Chlamydia may be recommended.",cat
+17,Bordetella (Kennel Cough),Core,"For cats in environments where they may be exposed to kennel cough, such as catteries.",cat

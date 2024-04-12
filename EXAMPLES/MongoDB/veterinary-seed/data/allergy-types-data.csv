@@ -1,0 +1,10 @@
+Number,Allergen,Type
+1,Pollen,Inhaled
+2,Mold,Inhaled
+3,Dust Mites,Inhaled
+4,Flea Saliva,Contact
+5,Animal Dander (Skin),Inhaled
+6,Animal Dander (Skin),Contact
+7,Insect Bites,Contact
+8,Certain Foods,Ingested
+9,Medications,Ingested

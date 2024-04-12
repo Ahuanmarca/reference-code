@@ -1,0 +1,601 @@
+description,price,categories,stock
+"Jingle Bell Juggler",19.99,"Christmas, Toys",50
+"Festive Snowflake Puzzle",24.99,"Christmas, Toys",35
+"Santa's Helper Plushie",14.99,"Christmas, Toys",20
+"Reindeer Racer Car",29.99,"Christmas, Toys",45
+"Candy Cane Catcher Game",12.99,"Christmas, Toys",30
+"Elf Workshop Building Blocks",22.99,"Christmas, Toys",25
+"Snowman Surprise Stacker",17.99,"Christmas, Toys",40
+"Sleigh Ride Action Figure",27.99,"Christmas, Toys",55
+"Stocking Stuffer Miniatures",9.99,"Christmas, Toys",15
+"Twinkle Lights Train Set",34.99,"Christmas, Toys",60
+"Gingerbread House Kit",18.99,"Christmas, Toys",40
+"Jolly Jingle Drum Set",26.99,"Christmas, Toys",55
+"Peppermint Twist Yo-Yo",8.99,"Christmas, Toys",25
+"North Pole Telescope",32.99,"Christmas, Toys",30
+"Sugar Plum Fairy Doll",15.99,"Christmas, Toys",20
+"Holiday Magic Wand",11.99,"Christmas, Toys",15
+"Icy Igloo Building Set",21.99,"Christmas, Toys",35
+"Cocoa Puff Plush Pillow",13.99,"Christmas, Toys",50
+"Starlight Snow Globe",28.99,"Christmas, Toys",45
+"Candy Cane Lane Scooter",23.99,"Christmas, Toys",28
+"Frosty Friends Frisbee",10.99,"Christmas, Toys",22
+"Sleigh Bell Tambourine",19.99,"Christmas, Toys",38
+"Jingle Jump Rope",14.99,"Christmas, Toys",42
+"Snowflake Kite",27.99,"Christmas, Toys",33
+"Nutcracker Nesting Dolls",17.99,"Christmas, Toys",48
+"Twinkle Toes Ballet Shoes",12.99,"Christmas, Toys",18
+"Candy Cane Archery Set",24.99,"Christmas, Toys",31
+"Reindeer Roller Skates",20.99,"Christmas, Toys",26
+"Sugar Plum Piano",30.99,"Christmas, Toys",37
+"Elf Hat Toss Game",16.99,"Christmas, Toys",21
+"Snowman Bowling Set",22.99,"Christmas, Toys",46
+"Cranberry Cuddle Blanket",29.99,"Christmas, Toys",36
+"Santa's Sleigh Jigsaw Puzzle",25.99,"Christmas, Toys",27
+"Peppermint Twist Jump Rope",9.99,"Christmas, Toys",16
+"Starlight Skateboard",33.99,"Christmas, Toys",29
+"Christmas Carol Karaoke Microphone",14.99,"Christmas, Toys",44
+"Sugar Plum Skateboard",26.99,"Christmas, Toys",39
+"Frosty Face Painting Kit",18.99,"Christmas, Toys",19
+"Candy Cane Kazoo",12.99,"Christmas, Toys",34
+"Sleigh Bell Maracas",21.99,"Christmas, Toys",49
+"Snowball Launcher",15.99,"Christmas, Toys",23
+"Jingle Bell Paddle Ball",27.99,"Christmas, Toys",32
+"Holly Jolly Jumping Rope",23.99,"Christmas, Toys",41
+"Candy Cane Kaleidoscope",16.99,"Christmas, Toys",24
+"Elf Earmuff Headphones",29.99,"Christmas, Toys",43
+"Snowman Stilt Walkers",20.99,"Christmas, Toys",47
+"Gingerbread Ninja Action Figure",24.99,"Christmas, Toys",50
+"Santa's Workshop Tool Set",28.99,"Christmas, Toys",35
+"Reindeer Rocket Launcher",19.99,"Christmas, Toys",28
+"Icicle Popsicle Maker",13.99,"Christmas, Toys",22
+"Frosty the Snowman Plush Doll",17.99,"Christmas, Toys",33
+"Jingle Bell Harmonica",11.99,"Christmas, Toys",26
+"Peppermint Candy Puzzle",25.99,"Christmas, Toys",39
+"Santa's Magic Wand",19.99,"Christmas, Toys",44
+"Snowflake Sticker Set",14.99,"Christmas, Toys",21
+"North Pole Explorer Kit",22.99,"Christmas, Toys",32
+"Candy Cane Chess Set",27.99,"Christmas, Toys",47
+"Reindeer Racing Game",16.99,"Christmas, Toys",38
+"Gingerbread Man Cookie Cutters",20.99,"Christmas, Toys",29
+"Jolly Holly Hula Hoop",29.99,"Christmas, Toys",42
+"Glittering Snowflake Ornaments (Set of 6)",14.99,"Christmas, Decoration",28
+"Festive Holly Wreath",29.99,"Christmas, Decoration",37
+"Santa's Workshop Figurine",24.99,"Christmas, Decoration",19
+"LED Twinkle Lights (Multicolor, 50ft)",32.99,"Christmas, Decoration",45
+"Snowy Pinecone Garland",18.99,"Christmas, Decoration",31
+"Sparkling Reindeer Statue",26.99,"Christmas, Decoration",22
+"Golden Star Tree Topper",12.99,"Christmas, Decoration",36
+"Peppermint Candy Cane Candles (Set of 3)",21.99,"Christmas, Decoration",40
+"Velvet Poinsettia Table Runner",15.99,"Christmas, Decoration",27
+"Nutcracker Soldier Figurine (Large)",34.99,"Christmas, Decoration",33
+"Vintage Glass Ornament Set (Assorted, 12-Pack)",22.99,"Christmas, Decoration",25
+"Santa's Sleigh Table Centerpiece",19.99,"Christmas, Decoration",34
+"Illuminated Angel Tree Topper",28.99,"Christmas, Decoration",29
+"Snowman Family Figurine Set",27.99,"Christmas, Decoration",23
+"Peppermint Twist Throw Pillow",14.99,"Christmas, Decoration",38
+"Rustic Wooden Advent Calendar",32.99,"Christmas, Decoration",18
+"Snow Globe with Caroling Penguins",23.99,"Christmas, Decoration",32
+"Plaid Christmas Stockings (Set of 4)",17.99,"Christmas, Decoration",41
+"Glittering Starburst Ornaments (Set of 8)",26.99,"Christmas, Decoration",27
+"Light-Up Gingerbread House",36.99,"Christmas, Decoration",20
+"Angel Choir Candle Holder",31.99,"Christmas, Decoration",24
+"Snowy Birch Branches Décor",16.99,"Christmas, Decoration",35
+"Christmas Tree Skirt (Velvet, Red and Green)",29.99,"Christmas, Decoration",30
+"Silver Bells Door Wreath",18.99,"Christmas, Decoration",37
+"Festive Nutcracker Throw Blanket",24.99,"Christmas, Decoration",28
+"Glitter Snowflake Window Clings (Set of 12)",12.99,"Christmas, Decoration",42
+"Jingle Bell Garland",15.99,"Christmas, Decoration",36
+"Candy Cane Lane Sign",21.99,"Christmas, Decoration",33
+"Elf Workshop Snow Globe",27.99,"Christmas, Decoration",22
+"Cozy Plaid Christmas Tree Skirt",19.99,"Christmas, Decoration",39
+"Wooden Reindeer Table Décor",23.99,"Christmas, Decoration",31
+"LED Snowfall Curtain Lights",34.99,"Christmas, Decoration",26
+"Golden Glitter Pinecone Ornaments (Set of 6)",14.99,"Christmas, Decoration",40
+"Holiday Joy Wall Sign",16.99,"Christmas, Decoration",37
+"Christmas Carol Singers Figurines",28.99,"Christmas, Decoration",21
+"Velvet Reindeer Pillow Cover",13.99,"Christmas, Decoration",38
+"Santa's Mailbox Decoration",25.99,"Christmas, Decoration",30
+"Festive Patterned Pillow", 19.99, "Christmas, Decoration", 30
+"Silver Bells Garland", 14.95, "Christmas, Decoration", 25
+"Snowflake Table Runner", 22.99, "Christmas, Decoration", 20
+"Santa Claus Figurine", 29.99, "Christmas, Decoration", 15
+"LED Snowman String Lights", 34.95, "Christmas, Decoration", 10
+"Golden Star Tree Topper", 17.99, "Christmas, Decoration", 12
+"Sparkling Reindeer Ornament", 12.99, "Christmas, Decoration", 28
+"Red Velvet Stocking", 8.95, "Christmas, Decoration", 35
+"Holly Berry Wreath", 26.99, "Christmas, Decoration", 18
+"Nutcracker Soldier Statue", 32.95, "Christmas, Decoration", 22
+"Festive Candle Holders", 19.99, "Christmas, Decoration", 14
+"Snowy Pinecone Centerpiece", 23.95, "Christmas, Decoration", 16
+"Glittering Snowflake Decals", 11.99, "Christmas, Decoration", 32
+"Plush Santa Hat", 6.95, "Christmas, Decoration", 40
+"Silver Glitter Ribbon", 8.99, "Christmas, Decoration", 38
+"Flickering LED Candles", 15.95, "Christmas, Decoration", 24
+"Joyful Snowman Statue", 18.99, "Christmas, Decoration", 26
+"Twinkling Fairy Lights", 12.95, "Christmas, Decoration", 30
+"Charming Angel Tree Topper", 21.99, "Christmas, Decoration", 12
+"Snowy Pine Scented Candles", 9.95, "Christmas, Decoration", 36
+"Rustic Wooden Ornaments", 14.99, "Christmas, Decoration", 28
+"Plaid Christmas Stocking", 7.95, "Christmas, Decoration", 34
+"Glittery Gold Tablecloth", 19.95, "Christmas, Decoration", 20
+"Starry Night Luminaries (Set of 3)",20.99,"Christmas, Decoration",35
+"Snowy Owl Tree Topper",29.99,"Christmas, Decoration",29
+"Rustic Burlap Stockings (Set of 6)",17.99,"Christmas, Decoration",43
+"Cozy Knit Sweater", 49.99, "Clothing, Women, Winter", 25
+"Faux Fur Jacket", 79.99, "Clothing, Women, Winter", 30
+"Plaid Wool Skirt", 39.95, "Clothing, Women, Winter", 20
+"Cable Knit Scarf", 24.99, "Clothing, Women, Winter", 40
+"Ankle Boots", 59.99, "Clothing, Women, Winter", 15
+"Velvet Party Dress", 69.95, "Clothing, Women, Winter", 18
+"Knitted Mittens", 12.99, "Clothing, Women, Winter", 50
+"Suede Knee-High Boots", 89.99, "Clothing, Women, Winter", 12
+"Cashmere Turtleneck", 99.95, "Clothing, Women, Winter", 10
+"Wool Blend Coat", 129.99, "Clothing, Women, Winter", 8
+Winter Jacket,89.99,"Clothing, Women, Winter",50
+Cozy Sweater,45.00,"Clothing, Women, Winter",30
+Fleece-lined Leggings,29.99,"Clothing, Women, Winter",40
+Knit Scarf,19.95,"Clothing, Women, Winter",60
+Snow Boots,79.99,"Clothing, Women, Winter",25
+Wool Mittens,14.50,"Clothing, Women, Winter",35
+Puffer Coat,99.95,"Clothing, Women, Winter",20
+Cashmere Gloves,34.99,"Clothing, Women, Winter",50
+Beanie Hat,18.75,"Clothing, Women, Winter",45
+Thermal Underwear Set,39.99,"Clothing, Women, Winter",30
+Insulated Parka,119.99,"Clothing, Women, Winter",15
+Faux Fur Vest,55.00,"Clothing, Women, Winter",25
+Long Wool Skirt,69.95,"Clothing, Women, Winter",20
+Velvet Turtleneck,42.50,"Clothing, Women, Winter",40
+Hooded Sweatshirt,32.99,"Clothing, Women, Winter",35
+Woolen Gloves,21.75,"Clothing, Women, Winter",55
+Quilted Boots,89.50,"Clothing, Women, Winter",30
+Plaid Blanket Scarf,26.99,"Clothing, Women, Winter",45
+Sherpa-lined Jacket,79.95,"Clothing, Women, Winter",25
+Cable Knit Cardigan,49.50,"Clothing, Women, Winter",40
+Trench Coat,95.00,"Clothing, Women, Winter",20
+Flannel Pajama Set,35.99,"Clothing, Women, Winter",30
+Ankle Boots,54.99,"Clothing, Women, Winter",35
+Fuzzy Socks,9.99,"Clothing, Women, Winter",70
+Cowl Neck Sweater,38.95,"Clothing, Women, Winter",25
+Down-filled Vest,64.75,"Clothing, Women, Winter",15
+Silk Lined Gloves,29.50,"Clothing, Women, Winter",50
+Cashmere Poncho,79.99,"Clothing, Women, Winter",20
+Felt Fedora Hat,23.50,"Clothing, Women, Winter",40
+Faux Leather Leggings,45.99,"Clothing, Women, Winter",30
+Wool Beret,17.95,"Clothing, Women, Winter",55
+Insulated Snow Pants,59.99,"Clothing, Women, Winter",25
+Chunky Knit Blanket,65.00,"Clothing, Women, Winter",20
+Tweed Blazer,74.50,"Clothing, Women, Winter",25
+Quilted Crossbody Bag,39.95,"Clothing, Women, Winter",35
+Plush Robe,28.99,"Clothing, Women, Winter",40
+Faux Suede Skirt,42.75,"Clothing, Women, Winter",30
+Down-filled Gloves,34.50,"Clothing, Women, Winter",45
+Ribbed Tights,15.99,"Clothing, Women, Winter",50
+Cashmere Blend Sweater,57.00,"Clothing, Women, Winter",30
+Hiking Boots,69.99,"Clothing, Women, Winter",20
+Insulated Parka,109.99,"Clothing, Men, Winter",25
+Fleece-lined Jacket,79.95,"Clothing, Men, Winter",30
+Snowboarding Pants,64.50,"Clothing, Men, Winter",20
+Thermal Henley Shirt,28.99,"Clothing, Men, Winter",40
+Beanie Hat,15.75,"Clothing, Men, Winter",35
+Wool Peacoat,89.00,"Clothing, Men, Winter",15
+Ski Gloves,34.99,"Clothing, Men, Winter",50
+Flannel Shirt,45.00,"Clothing, Men, Winter",35
+Down Vest,52.75,"Clothing, Men, Winter",25
+Hiking Boots,74.99,"Clothing, Men, Winter",30
+Waterproof Ski Jacket,129.99,"Clothing, Men, Winter",20
+Cable Knit Sweater,54.95,"Clothing, Men, Winter",30
+Insulated Snow Pants,79.50,"Clothing, Men, Winter",25
+Puffer Jacket,89.99,"Clothing, Men, Winter",15
+Fleece-lined Hoodie,39.99,"Clothing, Men, Winter",40
+Windproof Running Jacket,68.00,"Clothing, Men, Winter",30
+Cashmere Scarf,22.50,"Clothing, Men, Winter",50
+Tech Gloves,29.99,"Clothing, Men, Winter",45
+Quilted Bomber Jacket,75.00,"Clothing, Men, Winter",20
+Snow Boots,99.95,"Clothing, Men, Winter",15
+Flannel-lined Jeans,42.75,"Clothing, Men, Winter",35
+Ski Socks,12.99,"Clothing, Men, Winter",60
+Wool Blend Overcoat,94.50,"Clothing, Men, Winter",20
+Pom Beanie,18.75,"Clothing, Men, Winter",25
+Thermal Leggings,32.99,"Clothing, Men, Winter",40
+Down-filled Vest,49.00,"Clothing, Men, Winter",30
+Mock Neck Sweater,44.95,"Clothing, Men, Winter",25
+Snowboarding Gloves,38.99,"Clothing, Men, Winter",35
+Insulated Flannel Shirt,59.00,"Clothing, Men, Winter",20
+Ski Goggles,45.99,"Clothing, Men, Winter",15
+Faux Fur-lined Parka,79.99,"Clothing, Men, Winter",30
+Turtleneck Sweater,36.00,"Clothing, Men, Winter",40
+Cargo Snow Pants,64.50,"Clothing, Men, Winter",25
+Sherpa-lined Jacket,69.95,"Clothing, Men, Winter",20
+Winter Baseball Cap,15.75,"Clothing, Men, Winter",35
+Thinsulate Mittens,27.99,"Clothing, Men, Winter",45
+Wool-blend Cardigan,58.00,"Clothing, Men, Winter",30
+Snowshoeing Jacket,85.00,"Clothing, Men, Winter",15
+Fleece Scarf,19.50,"Clothing, Men, Winter",50
+Performance Ski Pants,49.99,"Clothing, Men, Winter",30
+Down-filled Hooded Coat,69.99,"Clothing, Men, Winter",25
+Merino Wool Sweater,62.95,"Clothing, Men, Winter",40
+Quilted Down Jacket,79.00,"Clothing, Men, Winter",35
+Snowboarding Helmet,54.99,"Clothing, Men, Winter",20
+Insulated Cargo Pants,67.50,"Clothing, Men, Winter",25
+Fleece-lined Beanie,14.75,"Clothing, Men, Winter",40
+Hybrid Puffer Vest,42.99,"Clothing, Men, Winter",30
+Thermal Henley Hoodie,48.00,"Clothing, Men, Winter",20
+Water-resistant Joggers,34.95,"Clothing, Men, Winter",25
+Fleece-lined Slipper Socks,23.50,"Clothing, Men, Winter",35
+Heavyweight Flannel Shirt,57.99,"Clothing, Men, Winter",15
+Floral Sundress,34.99,"Clothing, Women, Summer",25
+Aviator Sunglasses,18.50,"Clothing, Women, Summer",40
+Denim Shorts,26.95,"Clothing, Women, Summer",30
+Strappy Sandals,29.99,"Clothing, Women, Summer",35
+Boho Maxi Skirt,42.00,"Clothing, Women, Summer",20
+Men's Graphic Tee,19.95,"Clothing, Men, Summer",50
+Cargo Shorts,32.50,"Clothing, Men, Summer",25
+Canvas Slip-On Shoes,24.99,"Clothing, Men, Summer",40
+Hawaiian Shirt,36.00,"Clothing, Men, Summer",30
+Boardshorts,28.99,"Clothing, Men, Summer",35
+Tropical Print Romper,39.99,"Clothing, Women, Summer",15
+Surfboard Shorts,28.50,"Clothing, Men, Summer",30
+Sleeveless Blouse,22.95,"Clothing, Women, Summer",40
+Striped Tank Top,18.99,"Clothing, Men, Summer",25
+Beach Hat,14.50,"Clothing, Women, Summer",50
+Chino Shorts,34.95,"Clothing, Men, Summer",20
+Ruffled Sundress,45.00,"Clothing, Women, Summer",35
+Graphic T-shirt,19.99,"Clothing, Men, Summer",45
+Flip Flops,12.99,"Clothing, Women, Summer",60
+Cargo Pants,39.50,"Clothing, Men, Summer",20
+Off-Shoulder Top,29.95,"Clothing, Women, Summer",30
+Polo Shirt,26.50,"Clothing, Men, Summer",40
+Straw Hat,16.99,"Clothing, Women, Summer",55
+Linen Shorts,36.00,"Clothing, Men, Summer",25
+Sunglasses,21.50,"Clothing, Women, Summer",35
+Printed Boardshorts,31.99,"Clothing, Men, Summer",30
+Crop Top,24.95,"Clothing, Women, Summer",25
+Denim Jeans,42.50,"Clothing, Men, Summer",30
+Espadrille Sandals,27.99,"Clothing, Women, Summer",40
+V-neck T-shirt,18.50,"Clothing, Men, Summer",50
+Floral Maxi Dress,49.99,"Clothing, Women, Summer",20
+Cargo Shorts,32.50,"Clothing, Men, Summer",25
+Ruffled Blouse,26.95,"Clothing, Women, Summer",35
+Striped Polo Shirt,24.99,"Clothing, Men, Summer",40
+Wide-Leg Jumpsuit,44.50,"Clothing, Women, Summer",15
+Chino Pants,38.95,"Clothing, Men, Summer",30
+Boho Kimono,34.00,"Clothing, Women, Summer",25
+Graphic Tank Top,19.99,"Clothing, Men, Summer",45
+High-Waisted Shorts,29.50,"Clothing, Women, Summer",30
+Classic T-shirt,18.50,"Clothing, Men, Summer",50
+Off-Shoulder Romper,39.95,"Clothing, Women, Summer",20
+Denim Jacket,46.50,"Clothing, Men, Summer",15
+Lace Top,22.99,"Clothing, Women, Summer",40
+Cotton Shorts,27.00,"Clothing, Men, Summer",35
+Sleeveless Jumpsuit,42.50,"Clothing, Women, Summer",25
+Printed Swim Trunks,28.99,"Clothing, Men, Summer",30
+Bohemian Skirt,33.95,"Clothing, Women, Summer",20
+Henley Shirt,21.50,"Clothing, Men, Summer",50
+Cropped Sweater,36.00,"Clothing, Women, Summer",30
+Athletic Shorts,24.99,"Clothing, Men, Summer",40
+Wireless Bluetooth Earbuds,59.99,Technology,50
+Smart Home Security Camera,89.95,Technology,30
+Gaming Laptop with RGB Keyboard,1299.00,Technology,15
+Fitness Tracker with Heart Rate Monitor,49.50,Technology,40
+Wireless Charging Pad,29.99,Technology,25
+4K Ultra HD Smart TV,699.00,Technology,20
+Noise-Canceling Headphones,119.95,Technology,35
+Smartwatch with GPS,79.50,Technology,30
+Wi-Fi Mesh Router System,149.99,Technology,20
+Portable External Hard Drive,79.95,Technology,25
+Bluetooth Wireless Speaker,39.99,Technology,40
+Smart Thermostat with Voice Control,129.95,Technology,15
+Wireless Gaming Mouse with RGB Lighting,59.50,Technology,25
+Smart Doorbell with HD Camera,179.00,Technology,20
+Ultra-Slim Laptop Stand,24.99,Technology,50
+Wireless Mechanical Keyboard,89.95,Technology,30
+Bluetooth Fitness Earphones,44.50,Technology,35
+Home Automation Hub,99.99,Technology,15
+Virtual Reality Headset,249.00,Technology,10
+HD Webcam with Microphone,49.95,Technology,30
+Gaming Console Controller,69.50,Technology,25
+Smart LED Light Bulbs (Pack of 4),34.99,Technology,40
+Portable Solar Charger,49.95,Technology,20
+Wireless Charging Mouse Pad,34.50,Technology,25
+4K Action Camera with Waterproof Case,119.00,Technology,15
+Compact Laser Printer,129.99,Technology,20
+Home Theater Sound System,299.00,Technology,10
+USB-C Docking Station,89.95,Technology,30
+Noise-Canceling Gaming Headset,149.50,Technology,15
+Smart Refrigerator with Touchscreen,1499.00,Technology,10
+Wireless Ergonomic Mouse,34.99,Technology,40
+Smart Wi-Fi Light Switch,29.95,Technology,25
+HD Streaming Media Player,79.50,Technology,30
+Bluetooth Car Kit with Hands-Free Calling,49.99,Technology,20
+Robot Vacuum Cleaner with Mapping,199.00,Technology,15
+Wireless Charging Desk Lamp,69.95,Technology,25
+Digital Drawing Tablet with Pen,119.50,Technology,20
+Smart Security Lock,79.99,Technology,30
+Noise-Canceling Bluetooth Earphones,89.95,Technology,25
+Gaming Mechanical Keyboard,99.50,Technology,20
+Smart Air Purifier with HEPA Filter,129.00,Technology,15
+Wireless Charging Power Bank,44.99,Technology,35
+Mini Projector with HDMI,79.95,Technology,30
+Gaming Monitor with 144Hz Refresh Rate,299.00,Technology,10
+Portable Bluetooth Printer,89.50,Technology,25
+Smart Water Bottle with Hydration Reminder,29.99,Technology,40
+Wireless Presenter Remote,24.95,Technology,50
+Compact Photo Printer,149.50,Technology,20
+Bluetooth Fitness Tracker Headphones,59.99,Technology,30
+Smart Coffee Maker with App Control,79.95,Technology,25
+Microfiber Kitchen Towels (Pack of 8),12.99,"Kitchen, Cleaning",50
+Stainless Steel Polish Wipes (Pack of 20),7.49,"Kitchen, Cleaning",40
+Expandable Over-the-Sink Dish Drying Rack,22.95,"Kitchen, Cleaning",30
+Bamboo Fiber Dishcloths (Set of 6),9.75,"Kitchen, Cleaning",35
+Citrus Scented Garbage Bags (Pack of 50),11.99,"Kitchen, Cleaning",40
+Dish Brush with Replaceable Head,4.50,"Kitchen, Cleaning",25
+Natural All-Purpose Kitchen Cleaner,8.95,"Kitchen, Cleaning",30
+Collapsible Silicone Sink Colander,6.25,"Kitchen, Cleaning",45
+Dual-Action Kitchen Scrub Brush,3.99,"Kitchen, Cleaning",40
+Reusable Beeswax Food Wrap (Set of 4),14.50,"Kitchen, Cleaning",30
+Stainless Steel Trash Can with Lid,29.99,"Kitchen, Cleaning",20
+Cabinet and Drawer Liner Rolls,10.95,"Kitchen, Cleaning",25
+Multi-Compartment Kitchen Utensil Organizer,16.50,"Kitchen, Cleaning",30
+Automatic Soap Dispenser with Sensor,18.75,"Kitchen, Cleaning",20
+Under-Sink Storage Organizer,24.95,"Kitchen, Cleaning",25
+Bamboo Dish Drying Mat,8.99,"Kitchen, Cleaning",40
+Lemon Verbena Hand Soap Refill,5.25,"Kitchen, Cleaning",35
+Trash Compactor Bags (Pack of 12),13.99,"Kitchen, Cleaning",30
+Fridge and Freezer Storage Bins (Set of 4),19.95,"Kitchen, Cleaning",25
+Stainless Steel Trash Bag Holder,14.50,"Kitchen, Cleaning",30
+"Stainless Steel Mixing Bowls Set", 24.99, "Kitchen, Cooking", 50
+"Non-Stick Cooking Pan", 29.99, "Kitchen, Cooking", 30
+"Chef's Knife Set with Block", 49.99, "Kitchen, Cooking", 20
+"Silicone Baking Mats (Set of 2)", 14.99, "Kitchen, Cooking", 40
+"Electric Hand Mixer", 34.99, "Kitchen, Cooking", 25
+"Cast Iron Skillet", 39.99, "Kitchen, Cooking", 15
+"Food Processor", 69.99, "Kitchen, Cooking", 10
+"Digital Meat Thermometer", 19.99, "Kitchen, Cooking", 35
+"Kitchen Utensil Set (10 pieces)", 22.99, "Kitchen, Cooking", 45
+"Glass Baking Dish", 17.99, "Kitchen, Cooking", 28
+"Instant Pot 6-Quart", 79.99, "Kitchen, Cooking", 12
+"Copper Bottom Pots and Pans Set", 129.99, "Kitchen, Cooking", 18
+"Vegetable Spiralizer", 16.99, "Kitchen, Cooking", 33
+"Rolling Pin", 12.99, "Kitchen, Cooking", 48
+"Salt and Pepper Grinder Set", 14.99, "Kitchen, Cooking", 38
+"Collapsible Colander", 9.99, "Kitchen, Cooking", 55
+"Digital Kitchen Scale", 19.99, "Kitchen, Cooking", 27
+"Tea Infuser Set", 8.99, "Kitchen, Cooking", 60
+"Garlic Press", 11.99, "Kitchen, Cooking", 42
+"Reusable Silicone Food Storage Bags", 19.99, "Kitchen, Cooking", 22
+"Stainless Steel Measuring Cups and Spoons Set", 15.99, "Kitchen, Cooking", 50
+"Non-Stick Griddle Pan", 28.99, "Kitchen, Cooking", 30
+"KitchenAid Stand Mixer", 229.99, "Kitchen, Cooking", 20
+"Silicone Cooking Utensil Set (12 pieces)", 21.99, "Kitchen, Cooking", 40
+"Blender with Glass Jar", 49.99, "Kitchen, Cooking", 25
+"Cookware Set (12-Piece)", 89.99, "Kitchen, Cooking", 15
+"Toaster Oven", 34.99, "Kitchen, Cooking", 10
+"Digital Kitchen Timer", 9.99, "Kitchen, Cooking", 35
+"Stainless Steel Pasta Pot with Strainer Lid", 39.99, "Kitchen, Cooking", 45
+"Kitchen Shears", 8.99, "Kitchen, Cooking", 28
+"Electric Kettle", 24.99, "Kitchen, Cooking", 12
+"Mixing Bowls with Lids (Set of 3)", 19.99, "Kitchen, Cooking", 18
+"Vegetable Peeler", 7.99, "Kitchen, Cooking", 33
+"Coffee Grinder", 15.99, "Kitchen, Cooking", 55
+"Digital Meat Tenderizer", 18.99, "Kitchen, Cooking", 27
+"Glass Storage Containers (Set of 8)", 32.99, "Kitchen, Cooking", 60
+"Collapsible Funnel", 6.99, "Kitchen, Cooking", 22
+"Electric Can Opener", 12.99, "Kitchen, Cooking", 42
+"Grill Pan", 26.99, "Kitchen, Cooking", 22
+"Kitchen Tool Organizer", 14.99, "Kitchen, Cooking", 48
+"Luxurious Anti-Aging Facial Cream", 34.99, "Beauty, Personal Care", 25
+"Moisturizing Lip Balm (Pack of 3)", 8.99, "Beauty, Personal Care", 40
+"Exfoliating Body Scrub", 19.99, "Beauty, Personal Care", 30
+"Hydrating Rosewater Mist", 12.99, "Beauty, Personal Care", 35
+"Electric Facial Cleansing Brush", 29.99, "Beauty, Personal Care", 18
+"Men's Grooming Kit", 42.99, "Beauty, Personal Care", 22
+"Nourishing Hair Mask", 16.99, "Beauty, Personal Care", 28
+"Natural Deodorant (Unscented)", 9.99, "Beauty, Personal Care", 50
+"Professional Makeup Brush Set", 24.99, "Beauty, Personal Care", 15
+"Tea Tree Oil Acne Treatment", 14.99, "Beauty, Personal Care", 20
+"Luxurious Anti-Aging Night Cream", 39.99, "Beauty, Personal Care", 28
+"Refreshing Cucumber Eye Gel", 17.99, "Beauty, Personal Care", 32
+"Soothing Aloe Vera Body Lotion", 21.99, "Beauty, Personal Care", 45
+"Radiant Skin Brightening Serum", 29.99, "Beauty, Personal Care", 24
+"Men's Beard Grooming Oil", 12.99, "Beauty, Personal Care", 20
+"Silk Sleep Mask with Adjustable Strap", 8.99, "Beauty, Personal Care", 38
+"Detoxifying Charcoal Face Mask", 16.99, "Beauty, Personal Care", 26
+"Natural Bath Bombs Set (Pack of 6)", 19.99, "Beauty, Personal Care", 30
+"Compact Travel Hair Dryer", 34.99, "Beauty, Personal Care", 15
+"Teeth Whitening Kit with LED Light", 27.99, "Beauty, Personal Care", 18
+"Organic Lavender Massage Oil", 14.99, "Beauty, Personal Care", 22
+"Anti-Frizz Argan Oil Hair Serum", 11.99, "Beauty, Personal Care", 36
+"Gentle Makeup Remover Wipes (Pack of 25)", 9.99, "Beauty, Personal Care", 40
+"Electric Toothbrush with 3 Brush Heads", 32.99, "Beauty, Personal Care", 14
+"Hyaluronic Acid Hydrating Serum", 23.99, "Beauty, Personal Care", 21
+"Men's Cooling After-Shave Balm", 18.99, "Beauty, Personal Care", 25
+"Collagen Infused Sheet Masks (Set of 10)", 26.99, "Beauty, Personal Care", 30
+"Nail Care Kit with Cuticle Oil", 13.99, "Beauty, Personal Care", 27
+"Compact Travel Mirror with LED Lights", 15.99, "Beauty, Personal Care", 33
+"Natural Sulfate-Free Shampoo", 22.99, "Beauty, Personal Care", 17
+"Adjustable Ergonomic Office Chair", 149.99, "Home, Office", 25
+"Desk Organizer with Drawers", 32.99, "Home, Office", 40
+"LED Desk Lamp with USB Charging Port", 24.99, "Home, Office", 35
+"Mesh Back Support for Office Chair", 19.99, "Home, Office", 28
+"Desktop Computer Monitor Stand", 22.99, "Home, Office", 20
+"Executive Leather Desk Pad", 39.99, "Home, Office", 32
+"Wall-Mounted Floating Shelves", 27.99, "Home, Office", 27
+"Rotating Desk Organizer Caddy", 18.99, "Home, Office", 42
+"Desk Cable Management Organizer", 14.99, "Home, Office", 38
+"Document and Photo Scanner", 79.99, "Home, Office", 20
+"Desk Drawer Organizer Inserts (Set of 3)", 12.99, "Home, Office", 36
+"Ergonomic Wrist Rest for Keyboard", 9.99, "Home, Office", 40
+"Desktop File Organizer Rack", 28.99, "Home, Office", 30
+"Modern Whiteboard with Marker Set", 34.99, "Home, Office", 25
+"Desk Plant with Pot", 15.99, "Home, Office", 45
+"Adjustable Height Monitor Riser", 26.99, "Home, Office", 22
+"Task Desk Lamp with Adjustable Arm", 19.99, "Home, Office", 33
+"Acrylic Desk Organizer Set", 21.99, "Home, Office", 28
+"Fabric Desk Chair Mat", 32.99, "Home, Office", 15
+"Desktop Cable Clips (Set of 6)", 8.99, "Home, Office", 50
+"Garden Gloves","12.99","Home, Gardening","50"
+"Pruning Shears","19.99","Home, Gardening","30"
+"Flower Pots Set","24.99","Home, Gardening","40"
+"Watering Can","16.99","Home, Gardening","25"
+"Lawn Fertilizer","29.99","Home, Gardening","20"
+"Hedge Trimmer","39.99","Home, Gardening","15"
+"Garden Trowel","9.99","Home, Gardening","35"
+"Outdoor Plant Stand","34.99","Home, Gardening","25"
+"Sun Hat","14.99","Home, Gardening","50"
+"Garden Hose","29.99","Home, Gardening","30"
+"Seed Starter Kit","18.99","Home, Gardening","20"
+"Solar Garden Lights","22.99","Home, Gardening","40"
+"Compost Bin","32.99","Home, Gardening","15"
+"Knee Pads","8.99","Home, Gardening","45"
+"Deck Box for Garden Tools","54.99","Home, Gardening","10"
+"Herb Garden Kit","27.99","Home, Gardening","25"
+"Leaf Rake","14.99","Home, Gardening","35"
+"Outdoor Umbrella","39.99","Home, Gardening","20"
+"Garden Kneeler and Seat","29.99","Home, Gardening","30"
+"Mulch Bags","19.99","Home, Gardening","40"
+"Travel Backpack",49.99,Travel,30
+"Luggage Set (3 pieces)",129.99,Travel,15
+"Neck Pillow",12.99,Travel,50
+"Travel Adapter",14.99,Travel,40
+"Compression Packing Cubes",19.99,Travel,25
+"Portable Charger",24.99,Travel,30
+"Travel Toiletry Bag",17.99,Travel,35
+"Hanging Travel Organizer",22.99,Travel,20
+"Passport Holder",9.99,Travel,40
+"Inflatable Travel Pillow",16.99,Travel,30
+"Foldable Travel Duffel Bag",29.99,Travel,25
+"RFID Blocking Travel Wallet",18.99,Travel,40
+"Travel Umbrella",11.99,Travel,45
+"Travel Makeup Organizer",26.99,Travel,20
+"Digital Luggage Scale",13.99,Travel,35
+"Travel Journal",8.99,Travel,50
+"Noise Cancelling Headphones",79.99,Travel,15
+"Collapsible Water Bottle",9.99,Travel,50
+"Travel Laundry Bag",10.99,Travel,40
+"Travel Pillow Blanket",32.99,Travel,25
+"Storage Bins (Set of 3)",24.99,"Home, Organization",30
+"Shoe Rack",19.99,"Home, Organization",20
+"Closet Organizer System",49.99,"Home, Organization",15
+"Drawer Dividers (Set of 4)",12.99,"Home, Organization",25
+"Under-Bed Storage Bag",14.99,"Home, Organization",35
+"Wall-mounted Hooks (Set of 6)",8.99,"Home, Organization",40
+"Storage Ottoman",29.99,"Home, Organization",20
+"Desk Organizer",16.99,"Home, Organization",30
+"Laundry Hamper",18.99,"Home, Organization",25
+"Jewelry Organizer Tray",11.99,"Home, Organization",40
+"Floating Shelves (Set of 2)",22.99,"Home, Organization",15
+"Foldable Storage Cubes (Set of 6)",27.99,"Home, Organization",30
+"Entryway Bench with Storage",39.99,"Home, Organization",20
+"Over-the-Door Shoe Organizer",13.99,"Home, Organization",35
+"Garage Storage Rack",59.99,"Home, Organization",10
+"Plastic Storage Drawers (Set of 5)",34.99,"Home, Organization",15
+"Wire Basket Organizer",9.99,"Home, Organization",45
+"Hanging Closet Shelves",17.99,"Home, Organization",25
+"Acrylic Makeup Organizer",26.99,"Home, Organization",20
+"Key and Mail Holder",15.99,"Home, Organization",30
+"Bluetooth Wireless Earbuds",39.99,"Technology",50
+"Stainless Steel Mixing Bowls (Set of 3)",29.99,"Kitchen, Cooking",40
+"Anti-Aging Night Cream",24.99,"Beauty, Personal Care",30
+"Travel Neck Pillow",14.99,"Travel",25
+"Smart Home Thermostat",89.99,"Home, Office",15
+"Organic Fertilizer (5 lbs)",12.99,"Home, Gardening",35
+"Portable Folding Table",19.99,"Home, Organization",20
+"Winter Scarf",18.99,"Clothing, Women, Winter",30
+"Cordless Hand Vacuum",49.99,"Cleaning",25
+"Fitness Tracker Watch",59.99,"Technology",40
+"Insulated Lunch Bag",12.99,"Home, Office",30
+"Grill Brush and Scraper",9.99,"Home, Gardening",45
+"Travel Toiletry Kit",17.99,"Travel",25
+"Wireless Charging Pad",24.99,"Technology",35
+"Glass Food Storage Containers (Set of 5)",27.99,"Kitchen, Cooking",30
+"Hand Cream (3-Pack)",11.99,"Beauty, Personal Care",40
+"Waterproof Hiking Boots",79.99,"Clothing, Men, Winter",20
+"Stainless Steel Trash Can",34.99,"Home, Organization",15
+"Herb Garden Kit",16.99,"Home, Gardening",30
+"Foldable Laptop Stand",22.99,"Home, Office",25
+"Resistance Bands (Set of 3)",14.99,"Fitness, Home",40
+"Outdoor Solar Lights (Set of 4)",29.99,"Home, Gardening",20
+"Travel Umbrella",8.99,"Travel",35
+"Smart Plug (2-Pack)",19.99,"Technology",30
+"Yoga Mat with Carry Strap",18.99,"Fitness, Home",25
+"Air Purifier",79.99,"Home, Office",15
+"Silicone Baking Mats (Set of 2)",12.99,"Kitchen, Cooking",30
+"Collapsible Water Bottle",7.99,"Outdoor, Travel",40
+"Digital Meat Thermometer",15.99,"Kitchen, Cooking",25
+"Essential Oil Diffuser",24.99,"Home, Office",20
+"Garden Hand Trowel",9.99,"Home, Gardening",35
+"Winter Gloves",14.99,"Clothing, Women, Winter",30
+"Microfiber Cleaning Cloths (Pack of 10)",10.99,"Cleaning",25
+"Foldable Backpack",21.99,"Travel",30
+"Smart Home Security Camera",49.99,"Technology",20
+"Desk Lamp with USB Charging Port",29.99,"Home, Office",25
+"Grass-Fed Whey Protein Powder",27.99,"Fitness, Nutrition",40
+"Reusable Grocery Bags (Set of 5)",13.99,"Home, Organization",20
+"Travel Power Adapter",16.99,"Travel",35
+"Stainless Steel Water Bottle",15.99,"Outdoor, Fitness",35
+"Electric Wine Opener",19.99,"Kitchen, Gadgets",25
+"Men's Casual T-Shirt",12.99,"Clothing, Men, Summer",30
+"Smart LED Light Bulbs (Set of 4)",29.99,"Technology",20
+"Portable Camping Stove",34.99,"Outdoor, Camping",15
+"Makeup Brush Set (10 Pieces)",14.99,"Beauty, Personal Care",40
+"Travel Backpack with USB Charging Port",39.99,"Travel",25
+"Digital Kitchen Scale",18.99,"Kitchen, Cooking",30
+"Wireless Noise-Canceling Headphones",89.99,"Technology",30
+"Yoga Block and Strap Set",16.99,"Fitness, Yoga",25
+"Home Office Desk Organizer",21.99,"Home, Office",20
+"Indoor Herb Garden Starter Kit",24.99,"Home, Gardening",30
+"Men's Running Shoes",49.99,"Clothing, Men, Sport",20
+"Stainless Steel Travel Mug",11.99,"Travel",35
+"Smart Home Doorbell Camera",79.99,"Technology",15
+"Non-Stick Grill Pan",26.99,"Kitchen, Cooking",25
+"Hair Dryer with Ionic Technology",32.99,"Beauty, Personal Care",30
+"Winter Hat and Scarf Set",22.99,"Clothing, Women, Winter",25
+"Collapsible Storage Bins (Set of 3)",17.99,"Home, Organization",20
+"High-Performance Blender",59.99,"Kitchen, Appliances",15
+"Outdoor Solar String Lights",22.99,"Outdoor, Lighting",30
+"Travel Neck Wallet",13.99,"Travel",40
+"Fitness Jump Rope",9.99,"Fitness, Cardio",35
+"Portable Bluetooth Speaker",29.99,"Technology",25
+"Vegetable Spiralizer",14.99,"Kitchen, Gadgets",30
+"Wireless Charging Mouse Pad",24.99,"Technology",20
+"Women's Active Leggings",27.99,"Clothing, Women, Sport",20
+"Cordless Stick Vacuum Cleaner",79.99,"Cleaning",15
+"Foldable Picnic Blanket",18.99,"Outdoor, Camping",25
+"Compact Espresso Machine",49.99,"Kitchen, Appliances",30
+"LED Vanity Mirror with Lights",34.99,"Beauty, Personal Care",20
+"Men's Swim Trunks",19.99,"Clothing, Men, Summer",30
+"Home Office Chair",69.99,"Home, Office",15
+"Rainbow Silicone Kitchen Utensil Set",24.99,"Kitchen, Cooking",25
+"Resistance Loop Bands (Set of 5)",12.99,"Fitness, Home",30
+"Travel Packing Cubes (Set of 6)",15.99,"Travel",35
+"Smart Wi-Fi Thermostat",89.99,"Technology",20
+"Stainless Steel Insulated Lunch Box",28.99,"Home, Office",25
+"Indoor Plant Stand",16.99,"Home, Gardening",30
+"Fitness Foam Roller",20.99,"Fitness, Recovery",25
+"Smart Home Security Camera",69.99,"Technology",20
+"Insulated Picnic Cooler Bag",24.99,"Outdoor, Camping",25
+"Wide-Brim Straw Hat",14.99,"Clothing, Women, Summer",30
+"Wireless Charging Pad",18.99,"Technology",25
+"Yoga Mat with Carry Strap",21.99,"Fitness, Yoga",35
+"Collapsible Silicone Food Containers (Set of 4)",16.99,"Kitchen, Gadgets",30
+"Men's Waterproof Hiking Boots",59.99,"Clothing, Men, Outdoor",20
+"Digital Meat Thermometer",12.99,"Kitchen, Cooking",40
+"Portable Handheld Fan",9.99,"Home, Office",30
+"Anti-Theft Travel Backpack",34.99,"Travel",25
+"Resistance Bands for Home Workouts (Set of 3)",14.99,"Fitness, Home",30
+"Smart Plug with Energy Monitoring",22.99,"Technology",20
+"Women's Casual Slip-On Sneakers",29.99,"Clothing, Women, Casual",20
+"Stainless Steel Mixing Bowls (Set of 3)",19.99,"Kitchen, Cooking",25
+"Wireless Bluetooth Earbuds",39.99,"Technology",35
+"Reusable Makeup Remover Pads (Set of 6)",11.99,"Beauty, Personal Care",30
+"Foldable Laptop Stand",26.99,"Home, Office",20
+"Outdoor Camping Hammock",32.99,"Outdoor, Camping",15
+"Men's Leather Wallet",17.99,"Accessories, Men",30
+"Fitness Tracker with Heart Rate Monitor",45.99,"Fitness, Technology",25
+"Women's Lightweight Windbreaker",34.99,"Clothing, Women, Outdoor",20
+"Stainless Steel French Press Coffee Maker",27.99,"Kitchen, Appliances",15
+"USB Desk Fan",14.99,"Home, Office",25
+"Travel Document Organizer",19.99,"Travel",30
+"Resistance Tube Bands with Handles (Set of 2)",15.99,"Fitness, Home",25
+"Smart Home Light Bulbs (Set of 2)",29.99,"Technology",20

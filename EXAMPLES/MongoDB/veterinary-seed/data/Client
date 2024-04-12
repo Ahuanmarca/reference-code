@@ -1,0 +1,13 @@
+// GivenName               => name
+// Surname                 => surname
+// MothersMaiden           => secondSurname
+// NationalID              => dni
+// EmailAddress            => email
+// TelephoneNumber         => phone.number
+// TelephoneCountryCode    => phone.countryCod
+// StreetAddress   => street   // need to slice the number at the end
+// StreetAddress   => number   // sliced from end of StreetAddress
+// City            => city
+// State           => state
+// ZipCode         => postaCode
+// Country         => country

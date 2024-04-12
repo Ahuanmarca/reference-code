@@ -10,7 +10,7 @@ isBefore(new Date('2023-02-01'), new Date('2023-01-01'));
 isSameMonth(new Date('2023-02-01'), new Date('2023-02-15'));
 isSameMonth(new Date('2023-02-01'), new Date('2023-03-15'));
 
-// 1) Get current date
+// Get range from one year back (first day of month) to current date
 const currentDate = new Date();
 const end = format(currentDate, "yyyy-MM-dd"); `end: ${end}`;
 currentDate.setDate(1);

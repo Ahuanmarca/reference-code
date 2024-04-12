@@ -1,0 +1,21 @@
+Number,description,price,currency,roleAuth
+1,General veterinary consultation,34.50,Euro,Veterinario
+2,Emergency surgery,500.00,Euro,Veterinario
+3,Pet grooming,20.45,Euro,Técnico Veterinario
+4,Basic ultrasound,50.50,Euro,Técnico Veterinario
+5,Surgical Procedure,350.00,Euro,Veterinario
+6,Vaccination,20.20,Euro,Asistente Veterinario
+7,Spaying and Neutering,30.20,Euro,Asistente Veterinario
+8,Dental Care,15.15,Euro,Enfermero Veterinario
+9,Radiology,25.70,Euro,Técnico Veterinario
+10,Laboratory Diagnostics,40.35,Euro,Técnico Veterinario
+11,Internam Medicine,50.20,Euro,Veterinario
+12,Dermatology,20.90,Euro,Veterinario
+13,Cardiology,150.00,Euro,Veterinario
+14,Orthopedic Surgery,200.00,Euro,Veterinario
+15,Nutricional Counseling,15.00,Euro,Enfermero Veterinario
+16,Behavioral Consultation,15.00,Euro,Veterinario
+17,Parasite Prevention and Control,15.00,Euro,Veterinario
+18,Physical Rehabilitation,20.00,Euro,Enfermero Veterinario
+19,Hospice and Palliative Care,20.00,Euro,Enfermero Veterinario
+20,Oncology,60.00,Euro,Veterinario

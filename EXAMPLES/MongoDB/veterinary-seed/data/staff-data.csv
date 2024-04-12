@@ -1,0 +1,31 @@
+﻿Number,name,surname,secondSurname,role,specialization,licenceNumber
+1,Santiago,Rodríguez,López,Veterinario,Medicina de Animales Pequeños,X6147881R
+2,Valentina,García,Martínez,Técnico Veterinario,Cirugía y Anestesia,57105013R
+3,Mateo,Fernández,Díaz,Enfermero Veterinario,Cuidados Intensivos,03855479D
+4,Isabella,López,Sánchez,Asistente Veterinario,Dermatología,23298439V
+5,Lucas,Torres,Ramírez,Veterinario,Ortopedia,44915948N
+6,Sofia,Díaz,Fernández,Recepcionista Veterinaria,Comunicación con Clientes,Y1357394V
+7,Javier,Martínez,Gómez,Técnico Veterinario,Radiología e Imágenes,59429156K
+8,Camila,Vargas,Jiménez,Enfermera Veterinaria,Neonatología,93039622S
+9,Diego,Navarro,Herrera,Asistente Veterinario,Odontología,54064770I
+1,Gabriela,Romero,Castro,Veterinaria,Cardiología,84698914Y
+11,Alejandro,Muñoz,Vega,Técnico Veterinario,Medicina Exótica,01313630K
+12,Valeria,Soto,Molina,Enfermera Veterinaria,Laboratorio Clínico,19980081G
+13,Santiago,Guzmán,Ortiz,Asistente Veterinario,Nutrición Animal,Z6863735E
+14,Emma,Mendoza,Acosta,Veterinaria,Oftalmología,29849121N
+15,Daniel,Castillo,Ramos,Recepcionista Veterinario,Servicio al Cliente,17244911U
+16,Elena,Peralta,Flores,Técnica Veterinaria,Fisioterapia,12521063D
+17,Mateo,Silva,Gutiérrez,Enfermero Veterinario,Oncología,16391278T
+18,Sofia,Salazar,Ríos,Asistente Veterinaria,Medicina Preventiva,Z3637053D
+19,Leonardo,Castro,Herrera,Veterinario,Anestesiología,68286959F
+20,Mia,Morales,Mendoza,Técnica Veterinaria,Medicina del Comportamiento,09043356W
+21,Juan,Cordero,Torres,Enfermero Veterinario,Neonatología,Y4642578A
+22,Isabella,Serrano,Gómez,Asistente Veterinario,Cirugía de Tejidos Blandos,04058455J
+23,Alejandro,Reyes,Vargas,Veterinario,Neurología,Z5107393P
+24,Valentina,Álvarez,Jiménez,Técnica Veterinaria,Radiología e Imágenes,23872506N
+25,Lucas,Medina,Silva,Enfermero Veterinario,Endocrinología,87024379S
+26,Camila,Rosales,Ramírez,Asistente Veterinario,Odontología,08172212R
+27,Diego,Herrera,Guzmán,Veterinario,Cirugía Ortopédica,Y2396870D
+28,Gabriela,Morales,Peralta,Recepcionista Veterinario,Comunicación con Clientes,01139260S
+29,Javier,Ortega,Soto,Técnico Veterinario,Dermatología,53190705P
+30,Emma,Flores,Salazar,Enfermera Veterinaria,Cuidados Paliativos,92848011V

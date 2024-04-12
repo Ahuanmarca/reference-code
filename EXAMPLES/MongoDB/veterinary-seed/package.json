@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "csv": "^6.3.5",
+    "csv-reader": "^1.0.12",
+    "mongoose": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
