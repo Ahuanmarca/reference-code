@@ -1,0 +1,33 @@
+/*
+Clasificación de números
+Descripción
+
+Escriba una función donde se tenga un array de enteros como parámetro de entrada y otro como resultado de salida. Se necesita calcular las siguientes operaciones.
+
+Clasifica : Números positivos. Números negativos. Números igual a 0.
+
+Calcula el número de elementos de cada clasificación, dividido por el número del array. Represente el número de cada operación con un redondeo de 4 decimales. Devuelva un array de salida con cada operación en el siguiente orden [Npositivos, Nnegativos, Nzero]
+Ejemplo
+
+Se atiende al siguiente ejemplo:
+
+Array: [1, 2 ,-8, -2, 0, 9] Números positivos = 1, 2, 9 Números negativos = -8, -2 Números igual a 0 = 0
+
+Resultado: [(Npositivios/Array.size), (Nnegativos/Array.size), (Nzero/Array.size)]
+
+clasifica([1, 2 ,-8, -2, 0, 9]) // [ "0.5000","0.3333","0.1667"]
+*/
+
+function clasificaElementos(array) {
+  let [negative, positive, zero] = [0, 0, 0];
+  
+  array.forEach((num) => {
+    num > 0 && negative++;
+    num < 0 && positive++;
+    num === 0 && zero++;
+  })
+  
+  return [negative, positive, zero].map((e) => (e / array.length).toFixed(4)); 
+}
+
+clasificaElementos([1, 2 ,-8, -2, 0, 9]);
