@@ -1,6 +1,6 @@
 // Generics!
 
-// Function that accepts an array of numbers and returns the firs one
+// Function that accepts an array of numbers and returns the first one
 
 function getFirstElement(array: number[]) {
   return array[0];
